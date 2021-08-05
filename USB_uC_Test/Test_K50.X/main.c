@@ -10,7 +10,8 @@
 #define P_STAR  1 // Compatible with Pololu's P-Star dev boards https://www.pololu.com/category/217/p-star-programmable-controllers.
 #define GENERAL 2 // Compatible with dev boards that have a reset button.
 #define CUSTOM  3 // Write your own.
-#define BOARD_VERSION PICDEM
+#define PICSTICK 4 
+#define BOARD_VERSION PICSTICK
 
 #if BOARD_VERSION == PICDEM
 #define XTAL_USED         NO_XTAL
@@ -46,6 +47,16 @@
 #define LED_BIT
 #define LED_LAT
 #define LED_TRIS
+
+#elif BOARD_VERSION == PICSTICK
+#define XTAL_USED         NO_XTAL
+//#define USE_MCLRE       
+#define LED_BIT             4
+#define LED_LAT             LATA
+#define LED_TRIS            TRISA
+#define BUTTON_PORT_BIT     3
+#define BUTTON_PORT         PORTE
+#define BUTTON_ACTIVE_LOW   // Uncomment to make the Bootloader Button active low.
 
 #elif BOARD_VERSION == CUSTOM
 #define XTAL_USED           // Select oscillator option.
