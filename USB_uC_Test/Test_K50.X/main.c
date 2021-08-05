@@ -82,7 +82,7 @@
 #define LED_OUPUT() LED_TRIS &= ~(1 << LED_BIT)
 
 // WPUE3 (pull-up for RE3/MCLRE) needs to be accessable with PIC18F2XK50 (28 pin devices).
-#if !defined(TRISE)
+#if 0 //!defined(TRISE)
 #define TRISE TRISE
 uint8_t TRISE __at(0xF96); // This shouldn't be missing!!
 #endif
@@ -133,16 +133,20 @@ void main(void)
         if(BUTTON_PRESSED)
         {
             LED_ON();
-            __delay_ms(250);
+            for(int i = 0; i < 50; i++)
+            __delay_ms(5);
             LED_OFF();
-            __delay_ms(250);
+            for(int i = 0; i < 50; i++)
+            __delay_ms(5);
         }
         else
         {
             LED_ON();
-            __delay_ms(500);
+            for(int i = 0; i < 100; i++)
+            __delay_ms(5);
             LED_OFF();
-            __delay_ms(500);
+            for(int i = 0; i < 100; i++)
+            __delay_ms(5);
         }
     }
     return;
