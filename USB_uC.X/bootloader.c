@@ -597,12 +597,12 @@ static uint8_t get_device(void)
     PMCON1 = 0xC0;
     PMADR = (DEV_ID_START / 2);
     PMCON1bits.RD = 1;
-    __asm("NOP");
-    __asm("NOP");
+    asm("NOP");
+    asm("NOP");
     #else
     EECON1 = 0xC0;
     TBLPTR = DEV_ID_START;
-    __asm("TBLRDPOSTINC");
+    asm("TBLRDPOSTINC");
     #endif 
     
     #if defined(_PIC14E)

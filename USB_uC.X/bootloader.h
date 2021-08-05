@@ -365,7 +365,7 @@ typedef struct
     #endif
 }ROOT_DIR_t;
 
-const uint8_t aboutFile[] = "<html><script>window.location=\"https://github.com/johnnydrazzi/USB-uC\";</script></html>";
+const uint8_t aboutFile[] = "<html><script>window.location=\"https://github.com/rsenn/USB-uC\";</script></html>";
 
 /** Volume Root Entry */
 const ROOT_DIR_t ROOT =

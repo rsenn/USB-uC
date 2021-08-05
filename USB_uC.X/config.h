@@ -163,11 +163,17 @@
 
 // PIC18F24K50 and PIC18FX5K50 Settings.
 #elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
-#define PICDEM  0 // Compatible with DM163025-1 https://www.microchip.com/DevelopmentTools/ProductDetails/DM163025-1.
-#define P_STAR  1 // Compatible with Pololu's P-Star dev boards https://www.pololu.com/category/217/p-star-programmable-controllers.
-#define GENERAL 2 // Compatible with dev boards that have a reset button.
-#define CUSTOM  3 // Write your own.
-#define BOARD_VERSION PICDEM
+
+#if defined(_18F25K50)
+#warning 18F25k50
+#endif
+
+#define PICDEM   0 // Compatible with DM163025-1 https://www.microchip.com/DevelopmentTools/ProductDetails/DM163025-1.
+#define P_STAR   1 // Compatible with Pololu's P-Star dev boards https://www.pololu.com/category/217/p-star-programmable-controllers.
+#define GENERAL  2 // Compatible with dev boards that have a reset button.
+#define PINGUINO 3 // Pinguino
+#define CUSTOM   4 // Write your own.
+#define BOARD_VERSION PINGUINO
 
 #if BOARD_VERSION == PICDEM
 #define XTAL_USED         NO_XTAL
@@ -203,6 +209,16 @@
 #define BUTTON_WPU_BIT    7
 #define BUTTON_WPU        TRISE
 #define BUTTON_ACTIVE_LOW
+
+#elif BOARD_VERSION == PINGUINO
+#define XTAL_USED         NO_XTAL
+//#define USE_MCLRE       
+#define LED_BIT             4
+#define LED_LAT             LATA
+#define LED_TRIS            TRISA
+#define BUTTON_PORT_BIT     3
+#define BUTTON_PORT         PORTE
+#define BUTTON_ACTIVE_LOW   // Uncomment to make the Bootloader Button active low.
 
 #elif BOARD_VERSION == CUSTOM
 #define XTAL_USED           // Select oscillator option.

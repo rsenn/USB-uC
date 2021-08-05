@@ -44,8 +44,8 @@
 /******************************************************************************/
 
 #if PINGPONG_MODE == PINGPONG_DIS || PINGPONG_MODE == PINGPONG_0_OUT
-uint8_t g_msd_ep_out[MSD_EP_SIZE] __at(MSD_EP_OUT_BUFFER_BASE_ADDR);
-uint8_t g_msd_ep_in[MSD_EP_SIZE]  __at(MSD_EP_IN_BUFFER_BASE_ADDR);
+uint8_t g_msd_ep_out[MSD_EP_SIZE] __at(1068 /*MSD_EP_OUT_BUFFER_BASE_ADDR*/);
+uint8_t g_msd_ep_in[MSD_EP_SIZE]  __at(1132 /*MSD_EP_IN_BUFFER_BASE_ADDR*/);
 #else // PINGPONG_MODE == PINGPONG_1_15 || PINGPONG_MODE == PINGPONG_ALL_EP
 uint8_t g_msd_ep_out_even[MSD_EP_SIZE] __at(MSD_EP_OUT_EVEN_BUFFER_BASE_ADDR);
 uint8_t g_msd_ep_out_odd[MSD_EP_SIZE]  __at(MSD_EP_OUT_ODD_BUFFER_BASE_ADDR);
@@ -72,8 +72,8 @@ uint8_t g_msd_sect_data[512];
 /******************************* MSD GLOBAL VARS ******************************/
 /******************************************************************************/
 
-msd_cbw_t                 g_msd_cbw __at(CBW_DATA_ADDR);
-msd_csw_t                 g_msd_csw __at(CBW_DATA_ADDR);
+msd_cbw_t                 g_msd_cbw __at(0x68 /*CBW_DATA_ADDR*/);
+msd_csw_t                 g_msd_csw __at(0x68 /*CBW_DATA_ADDR*/);
 msd_rw_10_vars_t          g_msd_rw_10_vars;
 msd_bytes_to_transfer_t   g_msd_bytes_to_transfer;
 uint8_t                   g_msd_sense_key;
@@ -85,8 +85,8 @@ uint8_t                   g_msd_additional_sense_code_qualifier;
 scsi_read_capacity_10_t g_msd_read_capacity_10;
 scsi_mode_sense_t       g_msd_mode_sense;
 #else
-scsi_read_capacity_10_t g_msd_read_capacity_10 __at(MSD_EP_IN_BUFFER_BASE_ADDR);
-scsi_mode_sense_t       g_msd_mode_sense       __at(MSD_EP_IN_BUFFER_BASE_ADDR);
+scsi_read_capacity_10_t g_msd_read_capacity_10 __at(1132 /*MSD_EP_IN_BUFFER_BASE_ADDR*/);
+scsi_mode_sense_t       g_msd_mode_sense       __at(1132 /*MSD_EP_IN_BUFFER_BASE_ADDR*/);
 #endif
 
 /******************************************************************************/
@@ -96,14 +96,14 @@ scsi_mode_sense_t       g_msd_mode_sense       __at(MSD_EP_IN_BUFFER_BASE_ADDR);
 /******************************* LOCAL VARS ***********************************/
 /******************************************************************************/
 
-static scsi_request_sense_cmd_t    m_request_sense_cmd    __at(CBW_DATA_ADDR + 15);
-static scsi_inquiry_cmd_t          m_inquiry_cmd          __at(CBW_DATA_ADDR + 15);
-static scsi_mode_sense_6_cmd_t     m_mode_sense_6_cmd     __at(CBW_DATA_ADDR + 15);
-static scsi_read_capacity_10_cmd_t m_read_capacity_10_cmd __at(CBW_DATA_ADDR + 15);
-static scsi_read_10_cmd_t          m_read_10_cmd          __at(CBW_DATA_ADDR + 15);
-static scsi_write_10_cmd_t         m_write_10_cmd         __at(CBW_DATA_ADDR + 15);
-static scsi_mode_select_6_cmd_t    m_mode_select_6_cmd    __at(CBW_DATA_ADDR + 15);
-static scsi_pamr_cmd_t             m_pamr_cmd             __at(CBW_DATA_ADDR + 15);
+static scsi_request_sense_cmd_t    m_request_sense_cmd    __at(0x77);
+static scsi_inquiry_cmd_t          m_inquiry_cmd          __at(0x77);
+static scsi_mode_sense_6_cmd_t     m_mode_sense_6_cmd     __at(0x77);
+static scsi_read_capacity_10_cmd_t m_read_capacity_10_cmd __at(0x77);
+static scsi_read_10_cmd_t          m_read_10_cmd          __at(0x77);
+static scsi_write_10_cmd_t         m_write_10_cmd         __at(0x77);
+static scsi_mode_select_6_cmd_t    m_mode_select_6_cmd    __at(0x77);
+static scsi_pamr_cmd_t             m_pamr_cmd             __at(0x77);
 
 volatile static uint8_t m_msd_state;
 volatile static bool    m_end_data_short;

@@ -284,8 +284,9 @@ typedef union
 /* ************************************************************************** */
 
 #if PINGPONG_MODE == PINGPONG_DIS || PINGPONG_MODE == PINGPONG_0_OUT
-extern uint8_t g_msd_ep_out[MSD_EP_SIZE] __at(MSD_EP_OUT_BUFFER_BASE_ADDR);
-extern uint8_t g_msd_ep_in[MSD_EP_SIZE]  __at(MSD_EP_IN_BUFFER_BASE_ADDR);
+//static const int base_addr = MSD_EP_OUT_BUFFER_BASE_ADDR;
+extern uint8_t g_msd_ep_out[MSD_EP_SIZE] __at(1068 /*MSD_EP_OUT_BUFFER_BASE_ADDR*/);
+extern uint8_t g_msd_ep_in[MSD_EP_SIZE]  __at(1132 /*MSD_EP_IN_BUFFER_BASE_ADDR*/ );
 #else // PINGPONG_MODE == PINGPONG_1_15 || PINGPONG_MODE == PINGPONG_ALL_EP
 extern uint8_t g_msd_ep_out_even[MSD_EP_SIZE] __at(MSD_EP_OUT_EVEN_BUFFER_BASE_ADDR);
 extern uint8_t g_msd_ep_out_odd[MSD_EP_SIZE]  __at(MSD_EP_OUT_ODD_BUFFER_BASE_ADDR);
@@ -297,7 +298,7 @@ extern uint16_t g_msd_byte_of_sect;
 #ifndef MSD_LIMITED_RAM
 extern uint8_t g_msd_sect_data[512];
 #endif
-extern msd_cbw_t                 g_msd_cbw __at(CBW_DATA_ADDR);
+extern msd_cbw_t                 g_msd_cbw __at(0x68 /*CBW_DATA_ADDR*/);
 extern msd_csw_t                 g_msd_csw;
 extern msd_rw_10_vars_t          g_msd_rw_10_vars;
 extern msd_bytes_to_transfer_t   g_msd_bytes_to_transfer;

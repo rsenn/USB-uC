@@ -33,13 +33,13 @@
 #if defined(_PIC14E)
 void __interrupt() isr(void)
 {
-    __asm("LJMP "___mkstr(((PROG_REGION_START / 2) + 0x4)));
+    asm("LJMP "___mkstr(((PROG_REGION_START / 2) + 0x4)));
 }
 #else
-__asm("PSECT intcode");
-__asm("goto    "___mkstr(PROG_REGION_START + 0x08));
-__asm("PSECT intcodelo");
-__asm("goto    "___mkstr(PROG_REGION_START + 0x18));
+asm("PSECT intcode");
+asm("goto    "___mkstr(PROG_REGION_START + 0x08));
+asm("PSECT intcodelo");
+asm("goto    "___mkstr(PROG_REGION_START + 0x18));
 #endif
 
 
@@ -54,13 +54,18 @@ static uint8_t m_delay_cnt = 0;
 void main(void)
 {
     boot_init();
-    __delay_ms(50); // Incase of capacitance on boot pin.
+    __delay_ms(10); // Incase of capacitance on boot pin.
+    __delay_ms(10); // Incase of capacitance on boot pin.
+    __delay_ms(10); // Incase of capacitance on boot pin.
+    __delay_ms(10); // Incase of capacitance on boot pin.
+    __delay_ms(10); // Incase of capacitance on boot pin.
     check_user_first_inst();
     
     if(BUTTON_PRESSED || (user_firmware == false))
     {
         while(BUTTON_PRESSED){}
-        __delay_ms(20); // De-bounce.
+        __delay_ms(10); // De-bounce.
+        __delay_ms(10); // De-bounce.
         #ifdef USE_BOOT_LED
         LED_OUPUT();
         LED_ON();
@@ -79,9 +84,9 @@ void main(void)
     // User firmware detected.
     boot_uninit();
     #if defined(_PIC14E)
-    __asm("LJMP "___mkstr(PROG_REGION_START / 2));
+    asm("LJMP "___mkstr(PROG_REGION_START / 2));
     #else
-    __asm("GOTO " ___mkstr(PROG_REGION_START));
+    asm("GOTO " ___mkstr(PROG_REGION_START));
     #endif
     
     // Button was pushed while in bootloader.
@@ -105,7 +110,7 @@ void main(void)
         __delay_us(500);
         if(m_delay_cnt == 200) break;
     }
-    __asm("RESET");
+    asm("RESET");
 }
 
 static void inline boot_init(void)
@@ -279,17 +284,17 @@ static void check_user_first_inst(void)
     PMCON1 = 0;
     PMADR = (PROG_REGION_START / 2);
     PMCON1bits.RD = 1;
-    __asm("NOP");
-    __asm("NOP");
+    asm("NOP");
+    asm("NOP");
     if(PMDAT == 0x3FFF) user_firmware = false;
     else user_firmware = true;
 #else
     uint8_t inst[2];
     EECON1 = 0x80;
     TBLPTR = PROG_REGION_START;
-    __asm("TBLRDPOSTINC");
+    asm("TBLRDPOSTINC");
     inst[0] = TABLAT;
-    __asm("TBLRDPOSTINC");
+    asm("TBLRDPOSTINC");
     inst[1] = TABLAT;
     
     if(*((uint16_t*)inst) == 0xFFFF) user_firmware = false;
