@@ -14,25 +14,24 @@
 # You can invoke make with the values of the macros:
 # $ makeMP_CC="/opt/microchip/mplabc30/v3.30c/bin/pic30-gcc" ...  
 #
-SHELL=cmd.exe
-PATH_TO_IDE_BIN=C:/Program Files (x86)/Microchip/MPLABX/v5.35/mplab_platform/platform/../mplab_ide/modules/../../bin/
+PATH_TO_IDE_BIN=/mnt/sda3/opt/microchip/mplabx/v5.50/mplab_platform/platform/../mplab_ide/modules/../../bin/
 # Adding MPLAB X bin directory to path.
-PATH:=C:/Program Files (x86)/Microchip/MPLABX/v5.35/mplab_platform/platform/../mplab_ide/modules/../../bin/:$(PATH)
+PATH:=/mnt/sda3/opt/microchip/mplabx/v5.50/mplab_platform/platform/../mplab_ide/modules/../../bin/:$(PATH)
 # Path to java used to run MPLAB X when this makefile was created
-MP_JAVA_PATH="C:\Program Files (x86)\Microchip\MPLABX\v5.35\sys\java\jre1.8.0_181/bin/"
+MP_JAVA_PATH="/mnt/sda3/opt/microchip/mplabx/v5.50/sys/java/zulu8.40.0.25-ca-fx-jre8.0.222-linux_x64/bin/"
 OS_CURRENT="$(shell uname -s)"
 # MP_CC is not defined
 # MP_CPPC is not defined
 # MP_BC is not defined
-MP_AS="C:\Program Files (x86)\Microchip\MPLABX\v5.35\mpasmx\mpasmx.exe"
-MP_LD="C:\Program Files (x86)\Microchip\MPLABX\v5.35\mpasmx\mplink.exe"
-MP_AR="C:\Program Files (x86)\Microchip\MPLABX\v5.35\mpasmx\mplib.exe"
-DEP_GEN=${MP_JAVA_PATH}java -jar "C:/Program Files (x86)/Microchip/MPLABX/v5.35/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+MP_AS="/usr/local/bin/gpasm"
+MP_LD="/usr/local/bin/gplink"
+MP_AR="/usr/local/bin/gplib"
+DEP_GEN=${MP_JAVA_PATH}java -jar "/mnt/sda3/opt/microchip/mplabx/v5.50/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
 # MP_CC_DIR is not defined
 # MP_CPPC_DIR is not defined
 # MP_BC_DIR is not defined
-MP_AS_DIR="C:\Program Files (x86)\Microchip\MPLABX\v5.35\mpasmx"
-MP_LD_DIR="C:\Program Files (x86)\Microchip\MPLABX\v5.35\mpasmx"
-MP_AR_DIR="C:\Program Files (x86)\Microchip\MPLABX\v5.35\mpasmx"
+MP_AS_DIR="/usr/local/bin"
+MP_LD_DIR="/usr/local/bin"
+MP_AR_DIR="/usr/local/bin"
 # MP_BC_DIR is not defined
-DFP_DIR="C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63"
+DFP_DIR=/mnt/sda3/opt/microchip/mplabx/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63

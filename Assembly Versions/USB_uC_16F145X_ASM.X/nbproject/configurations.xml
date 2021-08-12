@@ -41,10 +41,10 @@
         <targetDevice>PIC16F1454</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
-        <languageToolchain>MPASMWIN</languageToolchain>
-        <languageToolchainVersion>5.87</languageToolchainVersion>
-        <platform>3</platform>
+        <platformTool>noID</platformTool>
+        <languageToolchain>GPUTILS</languageToolchain>
+        <languageToolchainVersion>1.5.0</languageToolchainVersion>
+        <platform>2</platform>
       </toolsSet>
       <packs>
         <pack name="PIC12-16F1xxx_DFP" vendor="Microchip" version="1.2.63"/>
@@ -591,6 +591,48 @@
         <property key="programoptions.uselvpprogramming" value="false"/>
         <property key="voltagevalue" value="4.75"/>
       </Tool>
+      <gpasm-config>
+        <property key="absolute_path" value="false"/>
+        <property key="coff_debug" value="false"/>
+        <property key="error_file" value="false"/>
+        <property key="extended" value="false"/>
+        <property key="full_address" value="false"/>
+        <property key="hexfileformat" value="inhx32"/>
+        <property key="ignore_case" value="false"/>
+        <property key="ignore_nolist" value="false"/>
+        <property key="macro_deref" value="false"/>
+        <property key="old_coff_format" value="false"/>
+        <property key="older_coff_format" value="false"/>
+        <property key="output_debug" value="false"/>
+        <property key="output_deps" value="false"/>
+        <property key="strict_level" value="0"/>
+        <property key="use_dos" value="false"/>
+        <property key="user-defines" value=""/>
+        <property key="user-includes" value=""/>
+        <property key="warning_level" value="0"/>
+      </gpasm-config>
+      <gplib-config>
+        <property key="lib_no-index" value="false"/>
+        <property key="lib_quiet" value="false"/>
+      </gplib-config>
+      <gplink-config>
+        <property key="create_map_file" value="false"/>
+        <property key="disable_list_file" value="false"/>
+        <property key="disable_save_local_regs" value="false"/>
+        <property key="executable_object" value="false"/>
+        <property key="fill_unused" value="false"/>
+        <property key="hex_file_format" value="inhx32"/>
+        <property key="linker_includes" value=""/>
+        <property key="optim_level" value="1"/>
+        <property key="processor_mismatch" value="false"/>
+        <property key="remove_banksel_level" value="0"/>
+        <property key="remove_pagesel_level" value="0"/>
+        <property key="stack_size" value=""/>
+        <property key="strict_level" value="0"/>
+        <property key="use_shared_mem" value="false"/>
+        <property key="user-macros" value=""/>
+        <property key="warnings_cinit" value="false"/>
+      </gplink-config>
       <pk4hybrid>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="Freeze Peripherals" value="true"/>

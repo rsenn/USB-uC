@@ -111,7 +111,10 @@
 #define GENERAL  1 // Compatible with dev boards that have a reset button.
 #define DEV_BRD  2 // A custom dev board I use.
 #define CUSTOM   3 // Write your own.
+
+#ifndef BOARD_VERSION
 #define BOARD_VERSION DM164127
+#endif
 
 #if BOARD_VERSION == DM164127 // Compatible with DM164127-2/DV164139-2 https://www.microchip.com/developmenttools/ProductDetails/PartNO/DM164127-2
                               // and MonkeyBUS - PIC18F14K50.
@@ -168,12 +171,16 @@
 #warning 18F25k50
 #endif
 
+
 #define PICDEM   0 // Compatible with DM163025-1 https://www.microchip.com/DevelopmentTools/ProductDetails/DM163025-1.
 #define P_STAR   1 // Compatible with Pololu's P-Star dev boards https://www.pololu.com/category/217/p-star-programmable-controllers.
 #define GENERAL  2 // Compatible with dev boards that have a reset button.
 #define PINGUINO 3 // Pinguino
 #define CUSTOM   4 // Write your own.
+
+#ifndef BOARD_VERSION
 #define BOARD_VERSION PINGUINO
+#endif
 
 #if BOARD_VERSION == PICDEM
 #define XTAL_USED         NO_XTAL
@@ -212,13 +219,15 @@
 
 #elif BOARD_VERSION == PINGUINO
 #define XTAL_USED         NO_XTAL
-//#define USE_MCLRE       
+#define BUTTON_PORT_BIT   3
+#define BUTTON_PORT       PORTE
+#define BUTTON_WPU_BIT    3
+#define BUTTON_WPU        TRISE
+#define BUTTON_ACTIVE_LOW
+#define USE_BOOT_LED        // Uncomment if you wish to have a Bootloader LED.
 #define LED_BIT             4
 #define LED_LAT             LATA
 #define LED_TRIS            TRISA
-#define BUTTON_PORT_BIT     3
-#define BUTTON_PORT         PORTE
-#define BUTTON_ACTIVE_LOW   // Uncomment to make the Bootloader Button active low.
 
 #elif BOARD_VERSION == CUSTOM
 #define XTAL_USED           // Select oscillator option.

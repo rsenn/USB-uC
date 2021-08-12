@@ -57,6 +57,12 @@
 #ifdef _PIC14E
 #define MSD_EP_OUT_BUFFER_BASE_ADDR 0x2050
 #define MSD_EP_IN_BUFFER_BASE_ADDR  0x20A0
+#elif defined(_18F14K50)
+#define MSD_EP_OUT_BUFFER_BASE_ADDR  0x022c
+#define MSD_EP_IN_BUFFER_BASE_ADDR   0x026c
+#elif defined(_18F25K50)
+#define MSD_EP_OUT_BUFFER_BASE_ADDR  0x042c
+#define MSD_EP_IN_BUFFER_BASE_ADDR   0x046c
 #else
 #define MSD_EP_OUT_BUFFER_BASE_ADDR  MSD_EP_BUFFERS_STARTING_ADDR
 #define MSD_EP_IN_BUFFER_BASE_ADDR   (MSD_EP_BUFFERS_STARTING_ADDR + MSD_EP_SIZE)
@@ -285,8 +291,8 @@ typedef union
 
 #if PINGPONG_MODE == PINGPONG_DIS || PINGPONG_MODE == PINGPONG_0_OUT
 //static const int base_addr = MSD_EP_OUT_BUFFER_BASE_ADDR;
-extern uint8_t g_msd_ep_out[MSD_EP_SIZE] __at(1068 /*MSD_EP_OUT_BUFFER_BASE_ADDR*/);
-extern uint8_t g_msd_ep_in[MSD_EP_SIZE]  __at(1132 /*MSD_EP_IN_BUFFER_BASE_ADDR*/ );
+extern uint8_t g_msd_ep_out[MSD_EP_SIZE] __at(MSD_EP_OUT_BUFFER_BASE_ADDR);
+extern uint8_t g_msd_ep_in[MSD_EP_SIZE]  __at(MSD_EP_IN_BUFFER_BASE_ADDR );
 #else // PINGPONG_MODE == PINGPONG_1_15 || PINGPONG_MODE == PINGPONG_ALL_EP
 extern uint8_t g_msd_ep_out_even[MSD_EP_SIZE] __at(MSD_EP_OUT_EVEN_BUFFER_BASE_ADDR);
 extern uint8_t g_msd_ep_out_odd[MSD_EP_SIZE]  __at(MSD_EP_OUT_ODD_BUFFER_BASE_ADDR);

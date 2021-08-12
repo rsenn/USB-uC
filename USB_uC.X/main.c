@@ -31,9 +31,10 @@
 #include "flash.h"
 
 #if defined(_PIC14E)
-void __interrupt() isr(void)
-{
-    asm("LJMP "___mkstr(((PROG_REGION_START / 2) + 0x4)));
+
+void __interrupt()
+isr(void) {
+  asm("LJMP "___mkstr(((PROG_REGION_START / 2) + 0x4)));
 }
 #else
 asm("PSECT intcode");
@@ -51,263 +52,260 @@ bool user_firmware = false;
 
 static uint8_t m_delay_cnt = 0;
 
-void main(void)
-{
-    boot_init();
-    __delay_ms(10); // Incase of capacitance on boot pin.
-    __delay_ms(10); // Incase of capacitance on boot pin.
-    __delay_ms(10); // Incase of capacitance on boot pin.
-    __delay_ms(10); // Incase of capacitance on boot pin.
-    __delay_ms(10); // Incase of capacitance on boot pin.
-    check_user_first_inst();
-    
-    if(BUTTON_PRESSED || (user_firmware == false))
-    {
-        while(BUTTON_PRESSED){}
-        __delay_ms(10); // De-bounce.
-        __delay_ms(10); // De-bounce.
-        #ifdef USE_BOOT_LED
-        LED_OUPUT();
-        LED_ON();
-        #endif
-        g_boot_reset = false;
-        usb_init();
-        while(1)
-        {
-            usb_tasks();
-            msd_tasks();
-            if(g_boot_reset)   goto delayed_reset;
-            if(BUTTON_PRESSED && user_firmware) goto button_reset;
-        }
+void
+main(void) {
+  boot_init();
+  __delay_ms(10); // Incase of capacitance on boot pin.
+  __delay_ms(10); // Incase of capacitance on boot pin.
+  __delay_ms(10); // Incase of capacitance on boot pin.
+  __delay_ms(10); // Incase of capacitance on boot pin.
+  __delay_ms(10); // Incase of capacitance on boot pin.
+  check_user_first_inst();
+
+  if(BUTTON_PRESSED || (user_firmware == false)) {
+    while(BUTTON_PRESSED) {
     }
-    
-    // User firmware detected.
-    boot_uninit();
-    #if defined(_PIC14E)
-    asm("LJMP "___mkstr(PROG_REGION_START / 2));
-    #else
-    asm("GOTO " ___mkstr(PROG_REGION_START));
-    #endif
-    
-    // Button was pushed while in bootloader.
-    button_reset:
-    while(BUTTON_PRESSED)
-    {
-        usb_tasks();
-        msd_tasks();
+    __delay_ms(10); // De-bounce.
+    __delay_ms(10); // De-bounce.
+#ifdef USE_BOOT_LED
+    LED_OUPUT();
+    LED_ON();
+#endif
+    g_boot_reset = false;
+    usb_init();
+    while(1) {
+      usb_tasks();
+      msd_tasks();
+      if(g_boot_reset) goto delayed_reset;
+      if(BUTTON_PRESSED && user_firmware) goto button_reset;
     }
-    
-    // Ready to leave the bootloader.
-    // "Gracefully" disconnect from USB (reset). Just gives some time to finish
-    // SCSI WRITE_10 or any other USB activity before disconnecting the from the
-    // USB. Prevents OS's reporting an error occurred.
-    delayed_reset:
-    while(1)
-    {
-        usb_tasks();
-        msd_tasks();
-        m_delay_cnt++;
-        __delay_us(500);
-        if(m_delay_cnt == 200) break;
-    }
-    asm("RESET");
-}
+  }
 
-static void inline boot_init(void)
-{
-    // Oscillator Settings.
-    // PIC16F145X.
-    #if defined(_PIC14E)
-    #if XTAL_USED == NO_XTAL
-    OSCCONbits.IRCF = 0xF;
-    #endif
-    #if XTAL_USED != MHz_12
-    OSCCONbits.SPLLMULT = 1;
-    #endif
-    OSCCONbits.SPLLEN = 1;
-    PLL_STARTUP_DELAY();
-    #if XTAL_USED == NO_XTAL
-    ACTCONbits.ACTSRC = 1;
-    ACTCONbits.ACTEN = 1;
-    #endif
-
-    // PIC18F14K50.
-    #elif defined(_18F14K50)
-    OSCTUNEbits.SPLLEN = 1;
-    PLL_STARTUP_DELAY();
-    
-    // PIC18F2XK50.
-    #elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
-    #if XTAL_USED == NO_XTAL
-    OSCCONbits.IRCF = 7;
-    #endif
-    #if (XTAL_USED != MHz_12)
-    OSCTUNEbits.SPLLMULT = 1;
-    #endif
-    OSCCON2bits.PLLEN = 1;
-    PLL_STARTUP_DELAY();
-    #if XTAL_USED == NO_XTAL
-    ACTCONbits.ACTSRC = 1;
-    ACTCONbits.ACTEN = 1;
-    #endif
-
-    // PIC18F2XJ53 and PIC18F4XJ53.
-    #elif defined(__J_PART)
-    OSCTUNEbits.PLLEN = 1;
-    PLL_STARTUP_DELAY();
-    #endif
-
-    
-    // Make boot pin digital.
-    #if defined(BUTTON_ANSEL) 
-    BUTTON_ANSEL &= ~(1<<BUTTON_ANSEL_BIT);
-    #elif defined(BUTTON_ANCON)
-    BUTTON_ANCON |= (1<<BUTTON_ANCON_BIT);
-    #endif
-
-    
-    // Apply pull-up.
-    #ifdef BUTTON_WPU
-    #if defined(_PIC14E)
-    WPUA = 0;
-    #if defined(_16F1459)
-    WPUB = 0;
-    #endif
-    BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
-    OPTION_REGbits.nWPUEN = 0;
-    
-    #elif defined(_18F14K50)
-    WPUA = 0;
-    WPUB = 0;
-    BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
-    INTCON2bits.nRABPU = 0;
-    
-    #elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
-    WPUB = 0;
-    TRISE &= 0x7F;
-    BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
-    INTCON2bits.nRBPU = 0;
-    
-    #elif defined(_18F26J53) || defined(_18F27J53)
-    LATB = 0;
-    BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
-    BUTTON_RXPU_REG &= ~(1 << BUTTON_RXPU_BIT);
-    
-    #elif defined(_18F46J53) || defined(_18F47J53)
-    LATB = 0;
-    LATD = 0;
-    LATE = 0;
-    BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
-    BUTTON_RXPU_REG &= ~(1 << BUTTON_RXPU_BIT);
-    #endif
-    #endif
-}
-
-static void inline boot_uninit(void)
-{
-    // Disable pull-up.
-    #ifdef BUTTON_WPU
-    #if defined(_PIC14E)
-    OPTION_REG = 0xFF;
-    WPUA = 0xFF;
-    #if defined(_16F1459)
-    WPUB = 0xFF;
-    #endif
-
-    #elif defined(_18F14K50)
-    INTCON2 = 0xFF;
-    WPUA = 0xFF;
-    WPUB = 0xFF;
-    
-    #elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
-    INTCON2 = 0xFF;
-    WPUB = 0xFF;
-    TRISE = 0xFF;
-    
-    #elif defined(_18F26J53) || defined(_18F27J53)
-    BUTTON_RXPU_REG |= (1 << BUTTON_RXPU_BIT);
-    LATB = 0xFF;
-    
-    #elif defined(_18F46J53) || defined(_18F47J53)
-    BUTTON_RXPU_REG |= (1 << BUTTON_RXPU_BIT);
-    LATB = 0xFF;
-    LATD = 0xFF;
-    LATE = 0xFF;
-    #endif
-    #endif
-
-    
-    // Make boot pin analog.
-    #if defined(BUTTON_ANSEL) 
-    BUTTON_ANSEL = 0xFF;
-    #elif defined(BUTTON_ANCON)
-    BUTTON_ANCON = 0;
-    #endif
-    
-    
-    // Oscillator Settings.
-    // PIC16F145X.
-    #if defined(_PIC14E)
-    #if (XTAL_USED == NO_XTAL)
-    ACTCON = 0;
-    #endif
-    OSCCON = 0x1C;
-
-    // PIC18F14K50.
-    #elif defined(_18F14K50)
-    OSCTUNEbits.SPLLEN = 0;
-    
-    // PIC18F2XK50.
-    #elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
-    #if XTAL_USED == NO_XTAL
-    ACTCON = 0;
-    #endif
-    OSCCON2bits.PLLEN = 0;
-    #if (XTAL_USED != MHz_12)
-    OSCTUNEbits.SPLLMULT = 0;
-    #endif
-    #if XTAL_USED == NO_XTAL
-    OSCCON = 0x30;
-    #endif
-
-    // PIC18F2XJ53.
-    #elif defined(__J_PART)
-    OSCTUNEbits.PLLEN = 0;
-    #endif
-
-    
-}
-
-static void check_user_first_inst(void)
-{
+  // User firmware detected.
+  boot_uninit();
 #if defined(_PIC14E)
-    PMCON1 = 0;
-    PMADR = (PROG_REGION_START / 2);
-    PMCON1bits.RD = 1;
-    asm("NOP");
-    asm("NOP");
-    if(PMDAT == 0x3FFF) user_firmware = false;
-    else user_firmware = true;
+  asm("LJMP "___mkstr(PROG_REGION_START / 2));
 #else
-    uint8_t inst[2];
-    EECON1 = 0x80;
-    TBLPTR = PROG_REGION_START;
-    asm("TBLRDPOSTINC");
-    inst[0] = TABLAT;
-    asm("TBLRDPOSTINC");
-    inst[1] = TABLAT;
-    
-    if(*((uint16_t*)inst) == 0xFFFF) user_firmware = false;
-    else user_firmware = true;
+  asm("GOTO " ___mkstr(PROG_REGION_START));
+#endif
+
+  // Button was pushed while in bootloader.
+button_reset:
+  while(BUTTON_PRESSED) {
+    usb_tasks();
+    msd_tasks();
+  }
+
+  // Ready to leave the bootloader.
+  // "Gracefully" disconnect from USB (reset). Just gives some time to finish
+  // SCSI WRITE_10 or any other USB activity before disconnecting the from the
+  // USB. Prevents OS's reporting an error occurred.
+delayed_reset:
+  while(1) {
+    usb_tasks();
+    msd_tasks();
+    m_delay_cnt++;
+    __delay_us(500);
+    if(m_delay_cnt == 200) break;
+  }
+  asm("RESET");
+}
+
+static void inline
+boot_init(void) {
+  // Oscillator Settings.
+  // PIC16F145X.
+#if defined(_PIC14E)
+#  if XTAL_USED == NO_XTAL
+  OSCCONbits.IRCF = 0xF;
+#  endif
+#  if XTAL_USED != MHz_12
+  OSCCONbits.SPLLMULT = 1;
+#  endif
+  OSCCONbits.SPLLEN = 1;
+  PLL_STARTUP_DELAY();
+#  if XTAL_USED == NO_XTAL
+  ACTCONbits.ACTSRC = 1;
+  ACTCONbits.ACTEN = 1;
+#  endif
+
+  // PIC18F14K50.
+#elif defined(_18F14K50)
+  OSCTUNEbits.SPLLEN = 1;
+  PLL_STARTUP_DELAY();
+
+  // PIC18F2XK50.
+#elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
+#  if XTAL_USED == NO_XTAL
+  OSCCONbits.IRCF = 7;
+#  endif
+#  if (XTAL_USED != MHz_12)
+  OSCTUNEbits.SPLLMULT = 1;
+#  endif
+  OSCCON2bits.PLLEN = 1;
+  PLL_STARTUP_DELAY();
+#  if XTAL_USED == NO_XTAL
+  ACTCONbits.ACTSRC = 1;
+  ACTCONbits.ACTEN = 1;
+#  endif
+
+  // PIC18F2XJ53 and PIC18F4XJ53.
+#elif defined(__J_PART)
+  OSCTUNEbits.PLLEN = 1;
+  PLL_STARTUP_DELAY();
+#endif
+
+
+  // Make boot pin digital.
+#if defined(BUTTON_ANSEL) 
+  BUTTON_ANSEL &= ~(1 << BUTTON_ANSEL_BIT);
+#elif defined(BUTTON_ANCON)
+  BUTTON_ANCON |= (1 << BUTTON_ANCON_BIT);
+#endif
+
+
+  // Apply pull-up.
+#ifdef BUTTON_WPU
+#  if defined(_PIC14E)
+  WPUA = 0;
+#    if defined(_16F1459)
+  WPUB = 0;
+#    endif
+  BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
+  OPTION_REGbits.nWPUEN = 0;
+
+#  elif defined(_18F14K50)
+  WPUA = 0;
+  WPUB = 0;
+  BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
+  INTCON2bits.nRABPU = 0;
+
+#  elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
+  WPUB = 0;
+  TRISE &= 0x7F;
+  BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
+  INTCON2bits.nRBPU = 0;
+
+#  elif defined(_18F26J53) || defined(_18F27J53)
+  LATB = 0;
+  BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
+  BUTTON_RXPU_REG &= ~(1 << BUTTON_RXPU_BIT);
+
+#  elif defined(_18F46J53) || defined(_18F47J53)
+  LATB = 0;
+  LATD = 0;
+  LATE = 0;
+  BUTTON_WPU |= (1 << BUTTON_WPU_BIT);
+  BUTTON_RXPU_REG &= ~(1 << BUTTON_RXPU_BIT);
+#  endif
 #endif
 }
 
-void msd_rx_sector(void)
-{
-    boot_process_read();
+static void inline
+boot_uninit(void) {
+  // Disable pull-up.
+#ifdef BUTTON_WPU
+#  if defined(_PIC14E)
+  OPTION_REG = 0xFF;
+  WPUA = 0xFF;
+#    if defined(_16F1459)
+  WPUB = 0xFF;
+#    endif
+
+#  elif defined(_18F14K50)
+  INTCON2 = 0xFF;
+  WPUA = 0xFF;
+  WPUB = 0xFF;
+
+#  elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
+  INTCON2 = 0xFF;
+  WPUB = 0xFF;
+  TRISE = 0xFF;
+
+#  elif defined(_18F26J53) || defined(_18F27J53)
+  BUTTON_RXPU_REG |= (1 << BUTTON_RXPU_BIT);
+  LATB = 0xFF;
+
+#  elif defined(_18F46J53) || defined(_18F47J53)
+  BUTTON_RXPU_REG |= (1 << BUTTON_RXPU_BIT);
+  LATB = 0xFF;
+  LATD = 0xFF;
+  LATE = 0xFF;
+#  endif
+#endif
+
+
+  // Make boot pin analog.
+#if defined(BUTTON_ANSEL) 
+  BUTTON_ANSEL = 0xFF;
+#elif defined(BUTTON_ANCON)
+  BUTTON_ANCON = 0;
+#endif
+
+
+  // Oscillator Settings.
+  // PIC16F145X.
+#if defined(_PIC14E)
+#  if (XTAL_USED == NO_XTAL)
+  ACTCON = 0;
+#  endif
+  OSCCON = 0x1C;
+
+  // PIC18F14K50.
+#elif defined(_18F14K50)
+  OSCTUNEbits.SPLLEN = 0;
+
+  // PIC18F2XK50.
+#elif defined(_18F24K50) || defined(_18F25K50) || defined(_18F45K50)
+#  if XTAL_USED == NO_XTAL
+  ACTCON = 0;
+#  endif
+  OSCCON2bits.PLLEN = 0;
+#  if (XTAL_USED != MHz_12)
+  OSCTUNEbits.SPLLMULT = 0;
+#  endif
+#  if XTAL_USED == NO_XTAL
+  OSCCON = 0x30;
+#  endif
+
+  // PIC18F2XJ53.
+#elif defined(__J_PART)
+  OSCTUNEbits.PLLEN = 0;
+#endif
+
+
 }
 
-void msd_tx_sector(void)
-{
-    boot_process_write();
+static void
+check_user_first_inst(void) {
+#if defined(_PIC14E)
+  PMCON1 = 0;
+  PMADR = (PROG_REGION_START / 2);
+  PMCON1bits.RD = 1;
+  asm("NOP");
+  asm("NOP");
+  if(PMDAT == 0x3FFF) user_firmware = false;
+  else user_firmware = true;
+#else
+  uint8_t inst[2];
+  EECON1 = 0x80;
+  TBLPTR = PROG_REGION_START;
+  asm("TBLRDPOSTINC");
+  inst[0] = TABLAT;
+  asm("TBLRDPOSTINC");
+  inst[1] = TABLAT;
+
+  if(*((uint16_t*)inst) == 0xFFFF) user_firmware = false;
+  else user_firmware = true;
+#endif
+}
+
+void
+msd_rx_sector(void) {
+  boot_process_read();
+}
+
+void
+msd_tx_sector(void) {
+  boot_process_write();
 }

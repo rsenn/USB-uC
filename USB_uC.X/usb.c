@@ -106,9 +106,9 @@ static uint8_t m_ep0_out[EP0_SIZE]      __at(EP0_OUT_BUFFER_BASE_ADDR);
 static uint8_t m_ep0_in[EP0_SIZE]       __at(EP0_IN_BUFFER_BASE_ADDR);
 
 #elif (PINGPONG_MODE == PINGPONG_0_OUT)
-static uint8_t m_ep0_out_even[EP0_SIZE] __at(1044 /*EP0_OUT_EVEN_BUFFER_BASE_ADDR*/);
-static uint8_t m_ep0_out_odd[EP0_SIZE]  __at(1052 /*EP0_OUT_ODD_BUFFER_BASE_ADDR*/);
-static uint8_t m_ep0_in[EP0_SIZE]       __at(1060 /*EP0_IN_BUFFER_BASE_ADDR*/);
+static uint8_t m_ep0_out_even[EP0_SIZE] __at(/*1044 */ EP0_OUT_EVEN_BUFFER_BASE_ADDR);
+static uint8_t m_ep0_out_odd[EP0_SIZE]  __at(/*1052 */ EP0_OUT_ODD_BUFFER_BASE_ADDR);
+static uint8_t m_ep0_in[EP0_SIZE]       __at(/*1060*/ EP0_IN_BUFFER_BASE_ADDR);
 
 #else
 static uint8_t m_ep0_out_even[EP0_SIZE] __at(EP0_OUT_EVEN_BUFFER_BASE_ADDR);
