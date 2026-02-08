@@ -19,6 +19,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "USB_uC.X/main.c",
+			"settings":
+			{
+				"buffer_size": 6738,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -32,8 +40,12 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"Package Control: User CA bundle"
+			],
+			[
 				"out",
-				"Browse Mode: Outline (Right)"
+				"Help: About"
 			],
 			[
 				"install",
@@ -64,10 +76,12 @@
 	},
 	"expanded_folders":
 	[
-		"/mnt/data/Projects/USB-uC"
+		"/mnt/data/Projects/USB-uC",
+		"/mnt/data/Projects/USB-uC/USB_uC.X"
 	],
 	"file_history":
 	[
+		"/mnt/data/home/roman/.config/sublime-text/Packages/User/Package Control.user-ca-bundle",
 		"/mnt/data/Projects/plot-cv/qjs-opencv/tests/test_linesegmentdetector.js",
 		"/mnt/data/Projects/plot-cv/qjs-opencv/tests/test_morphology_3.js",
 		"/mnt/data/Projects/plot-cv/qjs-opencv/tests/fld_lines.js",
@@ -116,6 +130,52 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "USB_uC.X/main.c",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "./",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"function_name_status_row": 0,
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1770545981.14,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
