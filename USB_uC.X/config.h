@@ -172,11 +172,12 @@
 #endif
 
 
-#define PICDEM   0 // Compatible with DM163025-1 https://www.microchip.com/DevelopmentTools/ProductDetails/DM163025-1.
-#define P_STAR   1 // Compatible with Pololu's P-Star dev boards https://www.pololu.com/category/217/p-star-programmable-controllers.
-#define GENERAL  2 // Compatible with dev boards that have a reset button.
-#define PINGUINO 3 // Pinguino
-#define CUSTOM   4 // Write your own.
+#define PICDEM         0 // Compatible with DM163025-1 https://www.microchip.com/DevelopmentTools/ProductDetails/DM163025-1.
+#define P_STAR         1 // Compatible with Pololu's P-Star dev boards https://www.pololu.com/category/217/p-star-programmable-controllers.
+#define GENERAL        2 // Compatible with dev boards that have a reset button.
+#define PINGUINO       3 // Pinguino
+#define PICSTICK_25K50 4 // https://github.com/kaza007/picstick_25k50 - No crystal, uses internal oscillator.
+#define CUSTOM         5 // Write your own.
 
 #ifndef BOARD_VERSION
 #define BOARD_VERSION PINGUINO
@@ -228,6 +229,19 @@
 #define LED_BIT             4
 #define LED_LAT             LATA
 #define LED_TRIS            TRISA
+
+#elif BOARD_VERSION == PICSTICK_25K50 // https://github.com/kaza007/picstick_25k50 - no crystal populated, runs off
+                                       // the internal oscillator with the PLL at max speed (48 MHz).
+#define XTAL_USED         NO_XTAL
+#define BUTTON_PORT_BIT   3     // Pushbutton is on MCLR/RE3.
+#define BUTTON_PORT       PORTE
+#define BUTTON_WPU_BIT    3
+#define BUTTON_WPU        TRISE
+#define BUTTON_ACTIVE_LOW
+#define USE_BOOT_LED
+#define LED_BIT           4     // LED anode is on RA4.
+#define LED_LAT           LATA
+#define LED_TRIS          TRISA
 
 #elif BOARD_VERSION == CUSTOM
 #define XTAL_USED           // Select oscillator option.

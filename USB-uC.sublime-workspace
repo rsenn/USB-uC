@@ -20,10 +20,5020 @@
 	"buffers":
 	[
 		{
-			"file": "USB_uC.X/main.c",
+			"contents": "  std\n  cv\n  help\n  getBinMask\nGCApplication\nreset\nsetImageAndWinName\nshowImage\nmouseClick\nnextIter\ngetIterCount\nsetRectInMask\nsetLblsInMask\nGCApplication::reset\nGCApplication::setImageAndWinName\nGCApplication::showImage\nGCApplication::setRectInMask\nGCApplication::setLblsInMask\nGCApplication::mouseClick\nGCApplication::nextIter\n  on_mouse\n  main",
 			"settings":
 			{
-				"buffer_size": 6738,
+				"buffer_size": 346,
+				"line_ending": "Unix",
+				"name": "𝌆 Outline",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					103,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/usb_scsi.h",
+						"symkeys":
+						[
+							[
+								909,
+								919
+							],
+							[
+								1221,
+								1256
+							],
+							[
+								1283,
+								1319
+							],
+							[
+								1346,
+								1372
+							],
+							[
+								1408,
+								1435
+							],
+							[
+								1471,
+								1495
+							],
+							[
+								1533,
+								1558
+							],
+							[
+								1596,
+								1626
+							],
+							[
+								1658,
+								1689
+							],
+							[
+								1721,
+								1754
+							],
+							[
+								1783,
+								1817
+							],
+							[
+								1846,
+								1875
+							],
+							[
+								1908,
+								1936
+							],
+							[
+								1971,
+								1993
+							],
+							[
+								2033,
+								2056
+							],
+							[
+								2096,
+								2143
+							],
+							[
+								2158,
+								2206
+							],
+							[
+								2221,
+								2248
+							],
+							[
+								2283,
+								2311
+							],
+							[
+								2346,
+								2382
+							],
+							[
+								2408,
+								2445
+							],
+							[
+								2471,
+								2515
+							],
+							[
+								2533,
+								2578
+							],
+							[
+								2596,
+								2633
+							],
+							[
+								2658,
+								2696
+							],
+							[
+								2721,
+								2759
+							],
+							[
+								2783,
+								2822
+							],
+							[
+								2846,
+								2865
+							],
+							[
+								2908,
+								2928
+							],
+							[
+								3000,
+								3013
+							],
+							[
+								3033,
+								3047
+							],
+							[
+								3066,
+								3084
+							],
+							[
+								3099,
+								3118
+							],
+							[
+								3169,
+								3177
+							],
+							[
+								3198,
+								3213
+							],
+							[
+								3227,
+								3236
+							],
+							[
+								3256,
+								3268
+							],
+							[
+								3285,
+								3299
+							],
+							[
+								3314,
+								3329
+							],
+							[
+								3343,
+								3357
+							],
+							[
+								3372,
+								3384
+							],
+							[
+								3401,
+								3412
+							],
+							[
+								3430,
+								3445
+							],
+							[
+								3459,
+								3471
+							],
+							[
+								3488,
+								3503
+							],
+							[
+								3517,
+								3525
+							],
+							[
+								3546,
+								3561
+							],
+							[
+								3575,
+								3585
+							],
+							[
+								3977,
+								3989
+							],
+							[
+								4048,
+								4055
+							],
+							[
+								4122,
+								4142
+							],
+							[
+								4192,
+								4212
+							],
+							[
+								4262,
+								4272
+							],
+							[
+								4332,
+								4341
+							],
+							[
+								4402,
+								4415
+							],
+							[
+								4472,
+								4486
+							],
+							[
+								4542,
+								4554
+							],
+							[
+								4616,
+								4629
+							],
+							[
+								4686,
+								4697
+							],
+							[
+								4756,
+								4777
+							],
+							[
+								4826,
+								4848
+							],
+							[
+								4896,
+								4908
+							],
+							[
+								4966,
+								4978
+							],
+							[
+								5036,
+								5064
+							],
+							[
+								5110,
+								5116
+							],
+							[
+								5181,
+								5188
+							],
+							[
+								5255,
+								5262
+							],
+							[
+								5325,
+								5332
+							],
+							[
+								5396,
+								5407
+							],
+							[
+								5466,
+								5479
+							],
+							[
+								5540,
+								5559
+							],
+							[
+								5610,
+								5629
+							],
+							[
+								5680,
+								5699
+							],
+							[
+								5750,
+								5759
+							],
+							[
+								5820,
+								5835
+							],
+							[
+								5890,
+								5900
+							],
+							[
+								5960,
+								5970
+							],
+							[
+								6030,
+								6056
+							],
+							[
+								6100,
+								6113
+							],
+							[
+								6170,
+								6183
+							],
+							[
+								6240,
+								6249
+							],
+							[
+								6310,
+								6320
+							],
+							[
+								6381,
+								6392
+							],
+							[
+								6451,
+								6464
+							],
+							[
+								6525,
+								6534
+							],
+							[
+								6595,
+								6605
+							],
+							[
+								6666,
+								6673
+							],
+							[
+								6736,
+								6751
+							],
+							[
+								6807,
+								6820
+							],
+							[
+								6877,
+								6890
+							],
+							[
+								6947,
+								6962
+							],
+							[
+								7021,
+								7041
+							],
+							[
+								7091,
+								7111
+							],
+							[
+								7161,
+								7176
+							],
+							[
+								7235,
+								7244
+							],
+							[
+								7309,
+								7318
+							],
+							[
+								7379,
+								7388
+							],
+							[
+								7449,
+								7456
+							],
+							[
+								7519,
+								7527
+							],
+							[
+								7593,
+								7601
+							],
+							[
+								7663,
+								7671
+							],
+							[
+								7733,
+								7752
+							],
+							[
+								7803,
+								7822
+							],
+							[
+								7873,
+								7892
+							],
+							[
+								7943,
+								7955
+							],
+							[
+								8013,
+								8023
+							],
+							[
+								8083,
+								8096
+							],
+							[
+								8153,
+								8166
+							],
+							[
+								8223,
+								8232
+							],
+							[
+								8293,
+								8302
+							],
+							[
+								8363,
+								8373
+							],
+							[
+								8433,
+								8443
+							],
+							[
+								8503,
+								8517
+							],
+							[
+								8573,
+								8587
+							],
+							[
+								8643,
+								8662
+							],
+							[
+								8713,
+								8732
+							],
+							[
+								8783,
+								8802
+							],
+							[
+								8853,
+								8863
+							],
+							[
+								8923,
+								8933
+							],
+							[
+								9997,
+								10022
+							],
+							[
+								10312,
+								10336
+							],
+							[
+								10638,
+								10656
+							],
+							[
+								10776,
+								10790
+							],
+							[
+								11045,
+								11068
+							],
+							[
+								11373,
+								11400
+							],
+							[
+								11502,
+								11525
+							],
+							[
+								11951,
+								11969
+							],
+							[
+								12388,
+								12407
+							],
+							[
+								12647,
+								12671
+							],
+							[
+								12823,
+								12840
+							],
+							[
+								13046,
+								13061
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  USB_SCSI_H … — macro object",
+							" Ⓜ  ASC_NO_ADDITIONAL_SENSE_INFORMATION … — macro object",
+							" Ⓜ  ASCQ_NO_ADDITIONAL_SENSE_INFORMATION … — macro object",
+							" Ⓜ  ASC_INVALID_COMMAND_OPCODE … — macro object",
+							" Ⓜ  ASCQ_INVALID_COMMAND_OPCODE … — macro object",
+							" Ⓜ  ASC_INVALID_FIELD_IN_CBD … — macro object",
+							" Ⓜ  ASCQ_INVALID_FIELD_IN_CBD … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_NOT_SUPPORTED … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_NOT_SUPPORTED … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_DOES_NOT_RESPOND … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_DOES_NOT_RESPOND … — macro object",
+							" Ⓜ  ASC_NOT_READY_TO_READY_CHANGE … — macro object",
+							" Ⓜ  ASCQ_MEDIUM_MAY_HAVE_CHANGED … — macro object",
+							" Ⓜ  ASC_MEDIUM_NOT_PRESENT … — macro object",
+							" Ⓜ  ASCQ_MEDIUM_NOT_PRESENT … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_NOT_READY_CAUSE_NOT_REPORTABLE … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_NOT_READY_CAUSE_NOT_REPORTABLE … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_IN_PROCESS … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_IN_PROCESS … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_NOT_READY_INIT_REQD … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_NOT_READY_INIT_REQD … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_NOT_READY_INTERVENTION_REQD … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_NOT_READY_INTERVENTION_REQD … — macro object",
+							" Ⓜ  ASC_LOGICAL_UNIT_NOT_READY_FORMATTING … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_UNIT_NOT_READY_FORMATTING … — macro object",
+							" Ⓜ  ASC_LOGICAL_BLOCK_ADDRESS_OUT_OF_RANGE … — macro object",
+							" Ⓜ  ASCQ_LOGICAL_BLOCK_ADDRESS_OUT_OF_RANGE … — macro object",
+							" Ⓜ  ASC_WRITE_PROTECTED … — macro object",
+							" Ⓜ  ASCQ_WRITE_PROTECTED … — macro object",
+							" Ⓜ  CURRENT_FIXED … — macro object",
+							" Ⓜ  DEFERRED_FIXED … — macro object",
+							" Ⓜ  CURRENT_DESCRIPTOR … — macro object",
+							" Ⓜ  DEFERRED_DESCRIPTOR … — macro object",
+							" Ⓜ  NO_SENSE … — macro object",
+							" Ⓜ  RECOVERED_ERROR … — macro object",
+							" Ⓜ  NOT_READY … — macro object",
+							" Ⓜ  MEDIUM_ERROR … — macro object",
+							" Ⓜ  HARDWARE_ERROR … — macro object",
+							" Ⓜ  ILLEGAL_REQUEST … — macro object",
+							" Ⓜ  UNIT_ATTENTION … — macro object",
+							" Ⓜ  DATA_PROTECT … — macro object",
+							" Ⓜ  BLANK_CHECK … — macro object",
+							" Ⓜ  VENDOR_SPECIFIC … — macro object",
+							" Ⓜ  COPY_ABORTED … — macro object",
+							" Ⓜ  ABORTED_COMMAND … — macro object",
+							" Ⓜ  OBSOLETE … — macro object",
+							" Ⓜ  VOLUME_OVERFLOW … — macro object",
+							" Ⓜ  MISCOMPARE … — macro object",
+							" Ⓜ  FORTMAT_UNIT … — macro object",
+							" Ⓜ  INQUIRY … — macro object",
+							" Ⓜ  LOCK_UNLOCK_CACHE_10 … — macro object",
+							" Ⓜ  LOCK_UNLOCK_CACHE_16 … — macro object",
+							" Ⓜ  LOG_SELECT … — macro object",
+							" Ⓜ  LOG_SENSE … — macro object",
+							" Ⓜ  MODE_SELECT_6 … — macro object",
+							" Ⓜ  MODE_SELECT_10 … — macro object",
+							" Ⓜ  MODE_SENSE_6 … — macro object",
+							" Ⓜ  MODE_SENSE_10 … — macro object",
+							" Ⓜ  MOVE_MEDIUM … — macro object",
+							" Ⓜ  PERSISTANT_RESERVE_IN … — macro object",
+							" Ⓜ  PERSISTANT_RESERVE_OUT … — macro object",
+							" Ⓜ  PRE_FETCH_10 … — macro object",
+							" Ⓜ  PRE_FETCH_16 … — macro object",
+							" Ⓜ  PREVENT_ALLOW_MEDIUM_REMOVAL … — macro object",
+							" Ⓜ  READ_6 … — macro object",
+							" Ⓜ  READ_10 … — macro object",
+							" Ⓜ  READ_12 … — macro object",
+							" Ⓜ  READ_16 … — macro object",
+							" Ⓜ  READ_BUFFER … — macro object",
+							" Ⓜ  READ_CAPACITY … — macro object",
+							" Ⓜ  READ_DEFECT_DATA_10 … — macro object",
+							" Ⓜ  READ_DEFECT_DATA_12 … — macro object",
+							" Ⓜ  READ_ELEMENT_STATUS … — macro object",
+							" Ⓜ  READ_LONG … — macro object",
+							" Ⓜ  REASSIGN_BLOCKS … — macro object",
+							" Ⓜ  REBUILD_16 … — macro object",
+							" Ⓜ  REBUILD_32 … — macro object",
+							" Ⓜ  RECEIVE_DIAGNOSTIC_RESULTS … — macro object",
+							" Ⓜ  REGENERAGE_16 … — macro object",
+							" Ⓜ  REGENERATE_32 … — macro object",
+							" Ⓜ  RELEASE_6 … — macro object",
+							" Ⓜ  RELEASE_10 … — macro object",
+							" Ⓜ  REPORT_LUNS … — macro object",
+							" Ⓜ  REQUEST_SENSE … — macro object",
+							" Ⓜ  RESERVE_6 … — macro object",
+							" Ⓜ  RESERVE_10 … — macro object",
+							" Ⓜ  SEEK_10 … — macro object",
+							" Ⓜ  SEND_DIAGNOSTIC … — macro object",
+							" Ⓜ  SET_LIMITS_10 … — macro object",
+							" Ⓜ  SET_LIMITS_12 … — macro object",
+							" Ⓜ  START_STOP_UNIT … — macro object",
+							" Ⓜ  SYNCHRONIZE_CACHE_10 … — macro object",
+							" Ⓜ  SYNCHRONIZE_CACHE_16 … — macro object",
+							" Ⓜ  TEST_UNIT_READY … — macro object",
+							" Ⓜ  VERIFY_10 … — macro object",
+							" Ⓜ  VERIFY_12 … — macro object",
+							" Ⓜ  VERIFY_16 … — macro object",
+							" Ⓜ  WRITE_6 … — macro object",
+							" Ⓜ  WRITE_10 … — macro object",
+							" Ⓜ  WRITE_12 … — macro object",
+							" Ⓜ  WRITE_16 … — macro object",
+							" Ⓜ  WRITE_AND_VERIFY_10 … — macro object",
+							" Ⓜ  WRITE_AND_VERIFY_12 … — macro object",
+							" Ⓜ  WRITE_AND_VERIFY_16 … — macro object",
+							" Ⓜ  WRITE_BUFFER … — macro object",
+							" Ⓜ  WRITE_LONG … — macro object",
+							" Ⓜ  WRITE_SAME_10 … — macro object",
+							" Ⓜ  WRITE_SAME_16 … — macro object",
+							" Ⓜ  XDREAD_10 … — macro object",
+							" Ⓜ  XDREAD_32 … — macro object",
+							" Ⓜ  XDWRITE_10 … — macro object",
+							" Ⓜ  XDWRITE_32 … — macro object",
+							" Ⓜ  XDWRITEREAD_10 … — macro object",
+							" Ⓜ  XDWRITEREAD_32 … — macro object",
+							" Ⓜ  XDWRITE_EXTENDED_16 … — macro object",
+							" Ⓜ  XDWRITE_EXTENDED_32 … — macro object",
+							" Ⓜ  XDWRITE_EXTENDED_64 … — macro object",
+							" Ⓜ  XPWRITE_10 … — macro object",
+							" Ⓜ  XPWRITE_32 … — macro object",
+							" Ⓣ  scsi_fixed_format_sense_t ; — typedef",
+							" Ⓣ  scsi_request_sense_cmd_t ; — typedef",
+							" Ⓣ  scsi_inquiry_cmd_t ; — typedef",
+							" Ⓣ  scsi_inquiry_t ; — typedef",
+							" Ⓣ  scsi_mode_sense_6_cmd_t ; — typedef",
+							" Ⓣ  scsi_read_capacity_10_cmd_t ; — typedef",
+							" Ⓣ  scsi_read_capacity_10_t ; — typedef",
+							" Ⓣ  scsi_read_10_cmd_t ; — typedef",
+							" Ⓣ  scsi_write_10_cmd_t ; — typedef",
+							" Ⓣ  scsi_mode_select_6_cmd_t ; — typedef",
+							" Ⓣ  scsi_mode_sense_t ; — typedef",
+							" Ⓣ  scsi_pamr_cmd_t ; — typedef"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABJEgAA4pOCICBVU0JfTVNEX0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfQlVGRkVSU19TVEFSVElOR19BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX0JVRkZFUlNfU1RBUlRJTkdfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9CVUZGRVJTX1NUQVJUSU5HX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9JTl9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX09VVF9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX0lOX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfRVZFTl9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX09VVF9PRERfQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9JTl9FVkVOX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fT0REX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0VWRU5fQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfT0REX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fRVZFTl9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX0lOX09ERF9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pOCICBDQVNFXzEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzgg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ0FTRV8xMSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENBU0VfMTIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzEzIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0NTSV9DTURfTl9TVVBQT1JUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkJDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTU1DXzUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBRSUNfMTU3IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgVUZJIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0ZGXzgwNzBpIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0NTSV9UUkFOU1BBUkVOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExTRF9GUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIElFRUVfMTY2NyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENCSV9XX0NPTVBMX0lOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENCSV9OX0NPTVBMX0lOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJCQiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVBUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBJUEVfVVNBR0VfREVTQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENCV19TSUcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDU1dfU0lHIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0NCVyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9EQVRBX1NFTlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfQ1NXIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX1JFQURfREFUQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9SRUFEX0ZJTklTSEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX1dSSVRFX0RBVEEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfV0FJVF9DTEVBUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9XQUlUX0JPTVNSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQURTQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEdFVF9SRVFVRVNUUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBVVF9SRVFVRVNUUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEdFVF9NQVhfTFVOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9NU1Ig4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfVFJBTlNBQ1RJT05fRElSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX1BJTkdQT05HX1BBUklUWSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfTEFTVF9QUEIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fTEFTVF9QUEIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0RBVEFfVE9HR0xFX1ZBTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9JTl9EQVRBX1RPR0dMRV9WQUwg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQldfREFUQV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ0JXX0RBVEFfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTU1BTkRfUEFTU0VEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09NTUFORF9GQUlMRUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQSEFTRV9FUlJPUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4kgIG1zZF9jYndfdCA7IOKAlCB0eXBlZGVmCuKTiSAgbXNkX2Nzd190IDsg4oCUIHR5cGVkZWYK4pOJICBtc2RfcndfMTBfdmFyc190IDsg4oCUIHR5cGVkZWYK4pOJICBtc2RfYnl0ZXNfdG9fdHJhbnNmZXJfdCA7IOKAlCB0eXBlZGVmCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfY2xhc3NfcmVxdWVzdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfaW5pdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfYWRkX3Rhc2sgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3Rhc2tzICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9jbGVhcl9oYWx0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9jbGVhcl9lcF90b2dnbGUgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX2FybV9lcF9vdXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX2FybV9lcF9pbiAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfYXJtX2VwX291dCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfYXJtX2VwX2luICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9zdGFsbF9lcF9vdXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3N0YWxsX2VwX2luICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrinJQgIFRPRE86IGRlc2NyaXB0aW9ucyBmb3IgdGhlc2UK4pKhICBtc2RfbWVkaWFfcHJlc2VudCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfdGVzdF91bml0X3JlYWR5ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9zdGFydF9zdG9wX3VuaXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3JlYWRfY2FwYWNpdHkgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3J4X3NlY3RvciAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfdHhfc2VjdG9yICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF93cl9wcm90ZWN0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgAAAAAAAAAApBMAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					104,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/usb_scsi_inq.c",
+						"symkeys":
+						[
+							[
+								895,
+								909
+							],
+							[
+								954,
+								970
+							],
+							[
+								1019,
+								1034
+							],
+							[
+								1135,
+								1150
+							],
+							[
+								1251,
+								1266
+							],
+							[
+								1389,
+								1404
+							],
+							[
+								1527,
+								1542
+							],
+							[
+								1665,
+								1680
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  SCSI_VENDER_ID … — macro object",
+							" Ⓜ  SCSI_PRODUCT_REV … — macro object",
+							" Ⓜ  SCSI_PRODUCT_ID … — macro object",
+							" Ⓜ  SCSI_PRODUCT_ID … — macro object",
+							" Ⓜ  SCSI_PRODUCT_ID … — macro object",
+							" Ⓜ  SCSI_PRODUCT_ID … — macro object",
+							" Ⓜ  SCSI_PRODUCT_ID … — macro object",
+							" Ⓜ  SCSI_PRODUCT_ID … — macro object"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAACeFgAA4pOCICBVU0JfU0NTSV9IIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDX05PX0FERElUSU9OQUxfU0VOU0VfSU5GT1JNQVRJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NRX05PX0FERElUSU9OQUxfU0VOU0VfSU5GT1JNQVRJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NfSU5WQUxJRF9DT01NQU5EX09QQ09ERSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ1FfSU5WQUxJRF9DT01NQU5EX09QQ09ERSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19JTlZBTElEX0ZJRUxEX0lOX0NCRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ1FfSU5WQUxJRF9GSUVMRF9JTl9DQkQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NfTE9HSUNBTF9VTklUX05PVF9TVVBQT1JURUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NRX0xPR0lDQUxfVU5JVF9OT1RfU1VQUE9SVEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDX0xPR0lDQUxfVU5JVF9ET0VTX05PVF9SRVNQT05EIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDUV9MT0dJQ0FMX1VOSVRfRE9FU19OT1RfUkVTUE9ORCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19OT1RfUkVBRFlfVE9fUkVBRFlfQ0hBTkdFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDUV9NRURJVU1fTUFZX0hBVkVfQ0hBTkdFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19NRURJVU1fTk9UX1BSRVNFTlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NRX01FRElVTV9OT1RfUFJFU0VOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19MT0dJQ0FMX1VOSVRfTk9UX1JFQURZX0NBVVNFX05PVF9SRVBPUlRBQkxFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDUV9MT0dJQ0FMX1VOSVRfTk9UX1JFQURZX0NBVVNFX05PVF9SRVBPUlRBQkxFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDX0xPR0lDQUxfVU5JVF9JTl9QUk9DRVNTIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDUV9MT0dJQ0FMX1VOSVRfSU5fUFJPQ0VTUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19MT0dJQ0FMX1VOSVRfTk9UX1JFQURZX0lOSVRfUkVRRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ1FfTE9HSUNBTF9VTklUX05PVF9SRUFEWV9JTklUX1JFUUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NfTE9HSUNBTF9VTklUX05PVF9SRUFEWV9JTlRFUlZFTlRJT05fUkVRRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ1FfTE9HSUNBTF9VTklUX05PVF9SRUFEWV9JTlRFUlZFTlRJT05fUkVRRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19MT0dJQ0FMX1VOSVRfTk9UX1JFQURZX0ZPUk1BVFRJTkcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBU0NRX0xPR0lDQUxfVU5JVF9OT1RfUkVBRFlfRk9STUFUVElORyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ19MT0dJQ0FMX0JMT0NLX0FERFJFU1NfT1VUX09GX1JBTkdFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDUV9MT0dJQ0FMX0JMT0NLX0FERFJFU1NfT1VUX09GX1JBTkdFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQVNDX1dSSVRFX1BST1RFQ1RFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFTQ1FfV1JJVEVfUFJPVEVDVEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ1VSUkVOVF9GSVhFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIERFRkVSUkVEX0ZJWEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ1VSUkVOVF9ERVNDUklQVE9SIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVGRVJSRURfREVTQ1JJUFRPUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE5PX1NFTlNFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVDT1ZFUkVEX0VSUk9SIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTk9UX1JFQURZIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTUVESVVNX0VSUk9SIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEFSRFdBUkVfRVJST1Ig4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJTExFR0FMX1JFUVVFU1Qg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBVTklUX0FUVEVOVElPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIERBVEFfUFJPVEVDVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJMQU5LX0NIRUNLIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgVkVORE9SX1NQRUNJRklDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09QWV9BQk9SVEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQUJPUlRFRF9DT01NQU5EIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgT0JTT0xFVEUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBWT0xVTUVfT1ZFUkZMT1cg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNSVNDT01QQVJFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRk9SVE1BVF9VTklUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSU5RVUlSWSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExPQ0tfVU5MT0NLX0NBQ0hFXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTE9DS19VTkxPQ0tfQ0FDSEVfMTYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBMT0dfU0VMRUNUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTE9HX1NFTlNFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTU9ERV9TRUxFQ1RfNiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1PREVfU0VMRUNUXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTU9ERV9TRU5TRV82IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTU9ERV9TRU5TRV8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1PVkVfTUVESVVNIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUEVSU0lTVEFOVF9SRVNFUlZFX0lOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUEVSU0lTVEFOVF9SRVNFUlZFX09VVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBSRV9GRVRDSF8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBSRV9GRVRDSF8xNiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBSRVZFTlRfQUxMT1dfTUVESVVNX1JFTU9WQUwg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUFEXzYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUFEXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVBRF8xMiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJFQURfMTYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUFEX0JVRkZFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJFQURfQ0FQQUNJVFkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUFEX0RFRkVDVF9EQVRBXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVBRF9ERUZFQ1RfREFUQV8xMiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJFQURfRUxFTUVOVF9TVEFUVVMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUFEX0xPTkcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUFTU0lHTl9CTE9DS1Mg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUJVSUxEXzE2IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVCVUlMRF8zMiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJFQ0VJVkVfRElBR05PU1RJQ19SRVNVTFRTIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVHRU5FUkFHRV8xNiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJFR0VORVJBVEVfMzIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUxFQVNFXzYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRUxFQVNFXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVQT1JUX0xVTlMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBSRVFVRVNUX1NFTlNFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVTRVJWRV82IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkVTRVJWRV8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNFRUtfMTAg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTRU5EX0RJQUdOT1NUSUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTRVRfTElNSVRTXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0VUX0xJTUlUU18xMiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNUQVJUX1NUT1BfVU5JVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNZTkNIUk9OSVpFX0NBQ0hFXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU1lOQ0hST05JWkVfQ0FDSEVfMTYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBURVNUX1VOSVRfUkVBRFkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBWRVJJRllfMTAg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBWRVJJRllfMTIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBWRVJJRllfMTYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBXUklURV82IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgV1JJVEVfMTAg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBXUklURV8xMiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFdSSVRFXzE2IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgV1JJVEVfQU5EX1ZFUklGWV8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFdSSVRFX0FORF9WRVJJRllfMTIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBXUklURV9BTkRfVkVSSUZZXzE2IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgV1JJVEVfQlVGRkVSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgV1JJVEVfTE9ORyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFdSSVRFX1NBTUVfMTAg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBXUklURV9TQU1FXzE2IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgWERSRUFEXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgWERSRUFEXzMyIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgWERXUklURV8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhEV1JJVEVfMzIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBYRFdSSVRFUkVBRF8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhEV1JJVEVSRUFEXzMyIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgWERXUklURV9FWFRFTkRFRF8xNiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhEV1JJVEVfRVhURU5ERURfMzIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBYRFdSSVRFX0VYVEVOREVEXzY0IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgWFBXUklURV8xMCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhQV1JJVEVfMzIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOJICBzY3NpX2ZpeGVkX2Zvcm1hdF9zZW5zZV90IDsg4oCUIHR5cGVkZWYK4pOJICBzY3NpX3JlcXVlc3Rfc2Vuc2VfY21kX3QgOyDigJQgdHlwZWRlZgrik4kgIHNjc2lfaW5xdWlyeV9jbWRfdCA7IOKAlCB0eXBlZGVmCuKTiSAgc2NzaV9pbnF1aXJ5X3QgOyDigJQgdHlwZWRlZgrik4kgIHNjc2lfbW9kZV9zZW5zZV82X2NtZF90IDsg4oCUIHR5cGVkZWYK4pOJICBzY3NpX3JlYWRfY2FwYWNpdHlfMTBfY21kX3QgOyDigJQgdHlwZWRlZgrik4kgIHNjc2lfcmVhZF9jYXBhY2l0eV8xMF90IDsg4oCUIHR5cGVkZWYK4pOJICBzY3NpX3JlYWRfMTBfY21kX3QgOyDigJQgdHlwZWRlZgrik4kgIHNjc2lfd3JpdGVfMTBfY21kX3QgOyDigJQgdHlwZWRlZgrik4kgIHNjc2lfbW9kZV9zZWxlY3RfNl9jbWRfdCA7IOKAlCB0eXBlZGVmCuKTiSAgc2NzaV9tb2RlX3NlbnNlX3QgOyDigJQgdHlwZWRlZgrik4kgIHNjc2lfcGFtcl9jbWRfdCA7IOKAlCB0eXBlZGVmAAAAAAAAAAAfAQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					105,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/usb.c",
+						"symkeys":
+						[
+							[
+								952,
+								972
+							],
+							[
+								1001,
+								1021
+							],
+							[
+								1050,
+								1070
+							],
+							[
+								1099,
+								1124
+							],
+							[
+								1147,
+								1163
+							],
+							[
+								1196,
+								1216
+							],
+							[
+								1246,
+								1254
+							],
+							[
+								1295,
+								1317
+							],
+							[
+								1343,
+								1363
+							],
+							[
+								1392,
+								1418
+							],
+							[
+								1441,
+								1465
+							],
+							[
+								1490,
+								1514
+							],
+							[
+								1539,
+								1563
+							],
+							[
+								1588,
+								1612
+							],
+							[
+								1637,
+								1661
+							],
+							[
+								1686,
+								1710
+							],
+							[
+								1735,
+								1759
+							],
+							[
+								1784,
+								1808
+							],
+							[
+								1833,
+								1860
+							],
+							[
+								1881,
+								1910
+							],
+							[
+								1929,
+								1962
+							],
+							[
+								1978,
+								2013
+							],
+							[
+								2027,
+								2050
+							],
+							[
+								2087,
+								2104
+							],
+							[
+								2146,
+								2163
+							],
+							[
+								2203,
+								2212
+							],
+							[
+								2263,
+								2274
+							],
+							[
+								2482,
+								2492
+							],
+							[
+								2845,
+								2849
+							],
+							[
+								2916,
+								2920
+							],
+							[
+								2987,
+								2991
+							],
+							[
+								3058,
+								3062
+							],
+							[
+								3129,
+								3133
+							],
+							[
+								3520,
+								3524
+							],
+							[
+								4258,
+								4262
+							],
+							[
+								4330,
+								4334
+							],
+							[
+								4442,
+								4446
+							],
+							[
+								4529,
+								4533
+							],
+							[
+								4615,
+								4619
+							],
+							[
+								4702,
+								4706
+							],
+							[
+								4779,
+								4783
+							],
+							[
+								4855,
+								4859
+							],
+							[
+								4931,
+								4935
+							],
+							[
+								5311,
+								5315
+							],
+							[
+								5385,
+								5389
+							],
+							[
+								5459,
+								5463
+							],
+							[
+								5959,
+								5970
+							],
+							[
+								6461,
+								6470
+							],
+							[
+								6710,
+								6723
+							],
+							[
+								6824,
+								6834
+							],
+							[
+								6961,
+								6978
+							],
+							[
+								7081,
+								7092
+							],
+							[
+								7201,
+								7215
+							],
+							[
+								7324,
+								7338
+							],
+							[
+								7453,
+								7470
+							],
+							[
+								7585,
+								7602
+							],
+							[
+								7709,
+								7722
+							],
+							[
+								7829,
+								7842
+							],
+							[
+								7943,
+								7953
+							],
+							[
+								8294,
+								8302
+							],
+							[
+								8646,
+								8655
+							],
+							[
+								9700,
+								9713
+							],
+							[
+								9757,
+								9778
+							],
+							[
+								9831,
+								9852
+							],
+							[
+								9923,
+								9932
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  RESET_CONDITION_FLAG … — macro object",
+							" Ⓜ  ERROR_CONDITION_FLAG … — macro object",
+							" Ⓜ  ACTIVITY_DETECT_FLAG … — macro object",
+							" Ⓜ  TRANSACTION_COMPLETE_FLAG … — macro object",
+							" Ⓜ  IDLE_DETECT_FLAG … — macro object",
+							" Ⓜ  STALL_CONDITION_FLAG … — macro object",
+							" Ⓜ  SOF_FLAG … — macro object",
+							" Ⓜ  ACTIVITY_DETECT_ENABLE … — macro object",
+							" Ⓜ  USB_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_CONFIGURATION_REGISTER … — macro object",
+							" Ⓜ  USB_EP0_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP1_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP2_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP3_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP4_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP5_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP6_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_EP7_CONTROL_REGISTER … — macro object",
+							" Ⓜ  USB_INTERRUPT_STAT_REGISTER … — macro object",
+							" Ⓜ  USB_INTERRUPT_ENABLE_REGISTER … — macro object",
+							" Ⓜ  USB_ERROR_INTERRUPT_STAT_REGISTER … — macro object",
+							" Ⓜ  USB_ERROR_INTERRUPT_ENABLE_REGISTER … — macro object",
+							" Ⓜ  PACKET_TRANSFER_DISABLE … — macro object",
+							" Ⓜ  USB_MODULE_ENABLE … — macro object",
+							" Ⓜ  SINGLR_ENDED_ZERO … — macro object",
+							" Ⓜ  PPB_RESET … — macro object",
+							" Ⓜ  USB_SUSPEND … — macro object",
+							" Ⓜ  _USTATbits … — macro object",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  usb_restart ( ) ; — function declaration",
+							" ⒡  arm_setup ( ) ; — function declaration",
+							" ⒡  process_setup ( ) ; — function declaration",
+							" ⒡  get_status ( ) ; — function declaration",
+							" ⒡  set_clear_feature ( ) ; — function declaration",
+							" ⒡  set_address ( ) ; — function declaration",
+							" ⒡  get_descriptor ( ) ; — function declaration",
+							" ⒡  set_descriptor ( ) ; — function declaration",
+							" ⒡  get_configuration ( ) ; — function declaration",
+							" ⒡  set_configuration ( ) ; — function declaration",
+							" ⒡  get_interface ( ) ; — function declaration",
+							" ⒡  set_interface ( ) ; — function declaration",
+							" ⒡  sync_frame ( ) ; — function declaration",
+							"—Ⓕ– usb_init ( ) { … } — function",
+							"—Ⓕ– usb_close ( ) { … } — function",
+							"—Ⓕ– usb_get_state ( ) { … } — function",
+							"—Ⓕ– usb_get_configuration ( ) { … } — function",
+							"—Ⓕ– usb_set_control_stage ( ) { … } — function",
+							"—Ⓕ– usb_tasks ( ) { … } — function"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABPAQAA4pOCICBTQ1NJX1ZFTkRFUl9JRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNDU0lfUFJPRFVDVF9SRVYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTQ1NJX1BST0RVQ1RfSUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTQ1NJX1BST0RVQ1RfSUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTQ1NJX1BST0RVQ1RfSUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTQ1NJX1BST0RVQ1RfSUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTQ1NJX1BST0RVQ1RfSUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBTQ1NJX1BST0RVQ1RfSUQg4oCmIOKAlCBtYWNybyBvYmplY3QAAAAAAAAAAIAKAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					106,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC_Test/Test_K50.X/main.c",
+						"symkeys":
+						[
+							[
+								46,
+								53
+							],
+							[
+								64,
+								70
+							],
+							[
+								81,
+								87
+							],
+							[
+								99,
+								105
+							],
+							[
+								291,
+								297
+							],
+							[
+								498,
+								505
+							],
+							[
+								572,
+								578
+							],
+							[
+								609,
+								617
+							],
+							[
+								628,
+								641
+							],
+							[
+								688,
+								697
+							],
+							[
+								714,
+								729
+							],
+							[
+								740,
+								751
+							],
+							[
+								766,
+								782
+							],
+							[
+								793,
+								805
+							],
+							[
+								867,
+								884
+							],
+							[
+								893,
+								900
+							],
+							[
+								911,
+								918
+							],
+							[
+								932,
+								940
+							],
+							[
+								1011,
+								1020
+							],
+							[
+								1037,
+								1052
+							],
+							[
+								1063,
+								1074
+							],
+							[
+								1089,
+								1105
+							],
+							[
+								1116,
+								1128
+							],
+							[
+								1144,
+								1151
+							],
+							[
+								1162,
+								1169
+							],
+							[
+								1183,
+								1191
+							],
+							[
+								1238,
+								1247
+							],
+							[
+								1264,
+								1279
+							],
+							[
+								1290,
+								1301
+							],
+							[
+								1316,
+								1330
+							],
+							[
+								1341,
+								1351
+							],
+							[
+								1366,
+								1383
+							],
+							[
+								1392,
+								1399
+							],
+							[
+								1408,
+								1415
+							],
+							[
+								1424,
+								1432
+							],
+							[
+								1474,
+								1483
+							],
+							[
+								1520,
+								1527
+							],
+							[
+								1538,
+								1545
+							],
+							[
+								1559,
+								1567
+							],
+							[
+								1582,
+								1597
+							],
+							[
+								1608,
+								1619
+							],
+							[
+								1634,
+								1651
+							],
+							[
+								1746,
+								1755
+							],
+							[
+								1801,
+								1816
+							],
+							[
+								1860,
+								1871
+							],
+							[
+								2249,
+								2266
+							],
+							[
+								2330,
+								2337
+							],
+							[
+								2390,
+								2397
+							],
+							[
+								2439,
+								2447
+							],
+							[
+								2566,
+								2576
+							],
+							[
+								2594,
+								2611
+							],
+							[
+								2663,
+								2677
+							],
+							[
+								2731,
+								2745
+							],
+							[
+								2825,
+								2831
+							],
+							[
+								2868,
+								2875
+							],
+							[
+								2919,
+								2925
+							],
+							[
+								2963,
+								2970
+							],
+							[
+								3015,
+								3024
+							],
+							[
+								5132,
+								5136
+							],
+							[
+								5150,
+								5154
+							],
+							[
+								5592,
+								5596
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  NO_XTAL … — macro object",
+							" Ⓜ  MHz_12 … — macro object",
+							" Ⓜ  MHz_16 … — macro object",
+							" Ⓜ  PICDEM … — macro object",
+							" Ⓜ  P_STAR … — macro object",
+							" Ⓜ  GENERAL … — macro object",
+							" Ⓜ  CUSTOM … — macro object",
+							" Ⓜ  PICSTICK … — macro object",
+							" Ⓜ  BOARD_VERSION … — macro object",
+							" Ⓜ  XTAL_USED … — macro object",
+							" Ⓜ  BUTTON_PORT_BIT … — macro object",
+							" Ⓜ  BUTTON_PORT … — macro object",
+							" Ⓜ  BUTTON_ANSEL_BIT … — macro object",
+							" Ⓜ  BUTTON_ANSEL … — macro object",
+							" Ⓜ  BUTTON_ACTIVE_LOW … — macro object",
+							" Ⓜ  LED_BIT … — macro object",
+							" Ⓜ  LED_LAT … — macro object",
+							" Ⓜ  LED_TRIS … — macro object",
+							" Ⓜ  XTAL_USED … — macro object",
+							" Ⓜ  BUTTON_PORT_BIT … — macro object",
+							" Ⓜ  BUTTON_PORT … — macro object",
+							" Ⓜ  BUTTON_ANSEL_BIT … — macro object",
+							" Ⓜ  BUTTON_ANSEL … — macro object",
+							" Ⓜ  LED_BIT … — macro object",
+							" Ⓜ  LED_LAT … — macro object",
+							" Ⓜ  LED_TRIS … — macro object",
+							" Ⓜ  XTAL_USED … — macro object",
+							" Ⓜ  BUTTON_PORT_BIT … — macro object",
+							" Ⓜ  BUTTON_PORT … — macro object",
+							" Ⓜ  BUTTON_WPU_BIT … — macro object",
+							" Ⓜ  BUTTON_WPU … — macro object",
+							" Ⓜ  BUTTON_ACTIVE_LOW … — macro object",
+							" Ⓜ  LED_BIT … — macro object",
+							" Ⓜ  LED_LAT … — macro object",
+							" Ⓜ  LED_TRIS … — macro object",
+							" Ⓜ  XTAL_USED … — macro object",
+							" Ⓜ  LED_BIT … — macro object",
+							" Ⓜ  LED_LAT … — macro object",
+							" Ⓜ  LED_TRIS … — macro object",
+							" Ⓜ  BUTTON_PORT_BIT … — macro object",
+							" Ⓜ  BUTTON_PORT … — macro object",
+							" Ⓜ  BUTTON_ACTIVE_LOW … — macro object",
+							" Ⓜ  XTAL_USED … — macro object",
+							" Ⓜ  BUTTON_PORT_BIT … — macro object",
+							" Ⓜ  BUTTON_PORT … — macro object",
+							" Ⓜ  BUTTON_ACTIVE_LOW … — macro object",
+							" Ⓜ  LED_BIT … — macro object",
+							" Ⓜ  LED_LAT … — macro object",
+							" Ⓜ  LED_TRIS … — macro object",
+							" Ⓜ  _XTAL_FREQ … — macro object",
+							"—Ⓜ– PLL_STARTUP_DELAY ( ) … — macro function",
+							" Ⓜ  BUTTON_PRESSED … — macro object",
+							" Ⓜ  BUTTON_PRESSED … — macro object",
+							"—Ⓜ– LED_ON ( ) … — macro function",
+							"—Ⓜ– LED_OFF ( ) … — macro function",
+							"—Ⓜ– LED_ON ( ) … — macro function",
+							"—Ⓜ– LED_OFF ( ) … — macro function",
+							"—Ⓜ– LED_OUPUT ( ) … — macro function",
+							" ⒡  init ( ) ; — function declaration",
+							"—Ⓕ– main ( ) { … } — function",
+							"—Ⓕ– init ( ) { … } — function"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAADgCwAA4pOCICBSRVNFVF9DT05ESVRJT05fRkxBRyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVSUk9SX0NPTkRJVElPTl9GTEFHIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQUNUSVZJVFlfREVURUNUX0ZMQUcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBUUkFOU0FDVElPTl9DT01QTEVURV9GTEFHIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSURMRV9ERVRFQ1RfRkxBRyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNUQUxMX0NPTkRJVElPTl9GTEFHIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU09GX0ZMQUcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBBQ1RJVklUWV9ERVRFQ1RfRU5BQkxFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgVVNCX0NPTlRST0xfUkVHSVNURVIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBVU0JfQ09ORklHVVJBVElPTl9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDBfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDFfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDJfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDNfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDRfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDVfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDZfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9FUDdfQ09OVFJPTF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9JTlRFUlJVUFRfU1RBVF9SRUdJU1RFUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9JTlRFUlJVUFRfRU5BQkxFX1JFR0lTVEVSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgVVNCX0VSUk9SX0lOVEVSUlVQVF9TVEFUX1JFR0lTVEVSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgVVNCX0VSUk9SX0lOVEVSUlVQVF9FTkFCTEVfUkVHSVNURVIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQQUNLRVRfVFJBTlNGRVJfRElTQUJMRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVTQl9NT0RVTEVfRU5BQkxFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0lOR0xSX0VOREVEX1pFUk8g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUEJfUkVTRVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBVU0JfU1VTUEVORCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIF9VU1RBVGJpdHMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICB1c2JfcmVzdGFydCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBhcm1fc2V0dXAgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgcHJvY2Vzc19zZXR1cCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBnZXRfc3RhdHVzICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNldF9jbGVhcl9mZWF0dXJlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNldF9hZGRyZXNzICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdldF9kZXNjcmlwdG9yICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNldF9kZXNjcmlwdG9yICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdldF9jb25maWd1cmF0aW9uICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNldF9jb25maWd1cmF0aW9uICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdldF9pbnRlcmZhY2UgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgc2V0X2ludGVyZmFjZSAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBzeW5jX2ZyYW1lICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrigJTikrvigJMgdXNiX2luaXQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyB1c2JfY2xvc2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyB1c2JfZ2V0X3N0YXRlICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgdXNiX2dldF9jb25maWd1cmF0aW9uICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgdXNiX3NldF9jb250cm9sX3N0YWdlICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgdXNiX3Rhc2tzICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgAAAAAAAAAAmAcAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					107,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/README.md",
+						"symkeys":
+						[
+							[
+								2,
+								8
+							]
+						],
+						"symlist":
+						[
+							"USB uC"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAkCQAA4pOCICBOT19YVEFMIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTUh6XzEyIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTUh6XzE2IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUElDREVNIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUF9TVEFSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgR0VORVJBTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENVU1RPTSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBJQ1NUSUNLIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9BUkRfVkVSU0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhUQUxfVVNFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9QT1JUX0JJVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9QT1JUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQlVUVE9OX0FOU0VMX0JJVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9BTlNFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9BQ1RJVkVfTE9XIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTEVEX0JJVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExFRF9MQVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBMRURfVFJJUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhUQUxfVVNFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9QT1JUX0JJVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9QT1JUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQlVUVE9OX0FOU0VMX0JJVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9BTlNFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExFRF9CSVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBMRURfTEFUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTEVEX1RSSVMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBYVEFMX1VTRUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCVVRUT05fUE9SVF9CSVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCVVRUT05fUE9SVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9XUFVfQklUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQlVUVE9OX1dQVSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9BQ1RJVkVfTE9XIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTEVEX0JJVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExFRF9MQVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBMRURfVFJJUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFhUQUxfVVNFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExFRF9CSVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBMRURfTEFUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTEVEX1RSSVMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCVVRUT05fUE9SVF9CSVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCVVRUT05fUE9SVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJVVFRPTl9BQ1RJVkVfTE9XIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgWFRBTF9VU0VEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQlVUVE9OX1BPUlRfQklUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQlVUVE9OX1BPUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCVVRUT05fQUNUSVZFX0xPVyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExFRF9CSVQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBMRURfTEFUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTEVEX1RSSVMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBfWFRBTF9GUkVRIOKApiDigJQgbWFjcm8gb2JqZWN0CuKAlOKTguKAkyBQTExfU1RBUlRVUF9ERUxBWSAoICkg4oCmIOKAlCBtYWNybyBmdW5jdGlvbgrik4IgIEJVVFRPTl9QUkVTU0VEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQlVUVE9OX1BSRVNTRUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4oCU4pOC4oCTIExFRF9PTiAoICkg4oCmIOKAlCBtYWNybyBmdW5jdGlvbgrigJTik4LigJMgTEVEX09GRiAoICkg4oCmIOKAlCBtYWNybyBmdW5jdGlvbgrigJTik4LigJMgTEVEX09OICggKSDigKYg4oCUIG1hY3JvIGZ1bmN0aW9uCuKAlOKTguKAkyBMRURfT0ZGICggKSDigKYg4oCUIG1hY3JvIGZ1bmN0aW9uCuKAlOKTguKAkyBMRURfT1VQVVQgKCApIOKApiDigJQgbWFjcm8gZnVuY3Rpb24K4pKhICBpbml0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrigJTikrvigJMgbWFpbiAoICkgeyDigKYgfSDigJQgZnVuY3Rpb24K4oCU4pK74oCTIGluaXQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uAAAAAAAAAAAGAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					108,
+					2,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAVVNCIHVDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					109,
+					2,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					110,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.c",
+						"symkeys":
+						[
+							[
+								1053,
+								1069
+							],
+							[
+								1108,
+								1124
+							],
+							[
+								1160,
+								1170
+							],
+							[
+								1214,
+								1229
+							],
+							[
+								1456,
+								1465
+							],
+							[
+								1496,
+								1514
+							],
+							[
+								1578,
+								1590
+							],
+							[
+								1614,
+								1630
+							],
+							[
+								1662,
+								1679
+							],
+							[
+								1712,
+								1723
+							],
+							[
+								1747,
+								1765
+							],
+							[
+								1804,
+								1814
+							],
+							[
+								1835,
+								1853
+							],
+							[
+								3504,
+								3516
+							],
+							[
+								5855,
+								5872
+							],
+							[
+								9914,
+								9932
+							],
+							[
+								12981,
+								12990
+							],
+							[
+								18679,
+								18695
+							],
+							[
+								18931,
+								18942
+							],
+							[
+								19180,
+								19198
+							],
+							[
+								20317,
+								20334
+							],
+							[
+								20463,
+								20473
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  INDEX_MASK … — macro object",
+							" Ⓜ  FLASH_ADDR_MASK … — macro object",
+							" ⒡  hex_parse ( ) ; — function declaration",
+							" ⒡  update_erase_block ( ) ; — function declaration",
+							" ⒡  generate_FAT ( ) ; — function declaration",
+							" ⒡  hex_char_to_char ( ) ; — function declaration",
+							" ⒡  LBA_to_flash_addr ( ) ; — function declaration",
+							" ⒡  delete_file ( ) ; — function declaration",
+							" ⒡  safely_write_block ( ) ; — function declaration",
+							" ⒡  get_device ( ) ; — function declaration",
+							"—Ⓕ– update_erase_block ( ) { … } — function",
+							"—Ⓕ– generate_FAT ( ) { … } — function",
+							"—Ⓕ– boot_process_read ( ) { … } — function",
+							"—Ⓕ– boot_process_write ( ) { … } — function",
+							"—Ⓕ– hex_parse ( ) { … } — function",
+							"—Ⓕ– hex_char_to_char ( ) { … } — function",
+							"—Ⓕ– delete_file ( ) { … } — function",
+							"—Ⓕ– safely_write_block ( ) { … } — function",
+							"—Ⓕ– LBA_to_flash_addr ( ) { … } — function",
+							"—Ⓕ– get_device ( ) { … } — function"
+						]
+					},
+					"AQAAAAAAAAAAAAAAmQMAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					111,
+					1,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAA1BAAA4pOCICBGTEFTSF9XUklURV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRkxBU0hfV1JJVEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIElOREVYX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGTEFTSF9BRERSX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pKhICBoZXhfcGFyc2UgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdlbmVyYXRlX0ZBVCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBoZXhfY2hhcl90b19jaGFyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIExCQV90b19mbGFzaF9hZGRyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGRlbGV0ZV9maWxlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNhZmVseV93cml0ZV9ibG9jayAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBnZXRfZGV2aWNlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrigJTikrvigJMgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZ2VuZXJhdGVfRkFUICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgYm9vdF9wcm9jZXNzX3JlYWQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBib290X3Byb2Nlc3Nfd3JpdGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfcGFyc2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfY2hhcl90b19jaGFyICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZGVsZXRlX2ZpbGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBzYWZlbHlfd3JpdGVfYmxvY2sgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBMQkFfdG9fZmxhc2hfYWRkciAoICkgeyDigKYgfSDigJQgZnVuY3Rpb24K4oCU4pK74oCTIGdldF9kZXZpY2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					112,
+					2,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					113,
+					2,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					114,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.h",
+						"symkeys":
+						[
+							[
+								827,
+								839
+							],
+							[
+								4019,
+								4036
+							],
+							[
+								4057,
+								4074
+							],
+							[
+								4095,
+								4107
+							],
+							[
+								4133,
+								4152
+							],
+							[
+								4171,
+								4190
+							],
+							[
+								4221,
+								4238
+							],
+							[
+								4271,
+								4283
+							],
+							[
+								4330,
+								4339
+							],
+							[
+								4415,
+								4432
+							],
+							[
+								4453,
+								4470
+							],
+							[
+								4491,
+								4503
+							],
+							[
+								4529,
+								4544
+							],
+							[
+								4568,
+								4587
+							],
+							[
+								4607,
+								4626
+							],
+							[
+								4657,
+								4674
+							],
+							[
+								4707,
+								4719
+							],
+							[
+								4746,
+								4765
+							],
+							[
+								4785,
+								4798
+							],
+							[
+								4824,
+								4835
+							],
+							[
+								4881,
+								4890
+							],
+							[
+								4966,
+								4983
+							],
+							[
+								5004,
+								5021
+							],
+							[
+								5042,
+								5054
+							],
+							[
+								5080,
+								5095
+							],
+							[
+								5119,
+								5138
+							],
+							[
+								5158,
+								5177
+							],
+							[
+								5208,
+								5225
+							],
+							[
+								5258,
+								5270
+							],
+							[
+								5297,
+								5316
+							],
+							[
+								5336,
+								5349
+							],
+							[
+								5375,
+								5386
+							],
+							[
+								5432,
+								5441
+							],
+							[
+								5517,
+								5534
+							],
+							[
+								5555,
+								5572
+							],
+							[
+								5593,
+								5612
+							],
+							[
+								5631,
+								5650
+							],
+							[
+								5669,
+								5686
+							],
+							[
+								5707,
+								5719
+							],
+							[
+								5745,
+								5757
+							],
+							[
+								5805,
+								5814
+							],
+							[
+								5891,
+								5908
+							],
+							[
+								5929,
+								5946
+							],
+							[
+								5967,
+								5986
+							],
+							[
+								6005,
+								6024
+							],
+							[
+								6043,
+								6060
+							],
+							[
+								6081,
+								6093
+							],
+							[
+								6119,
+								6131
+							],
+							[
+								6179,
+								6188
+							],
+							[
+								6299,
+								6309
+							],
+							[
+								6358,
+								6374
+							],
+							[
+								6386,
+								6394
+							],
+							[
+								6407,
+								6421
+							],
+							[
+								6436,
+								6449
+							],
+							[
+								6465,
+								6479
+							],
+							[
+								6495,
+								6509
+							],
+							[
+								6544,
+								6559
+							],
+							[
+								6586,
+								6604
+							],
+							[
+								6622,
+								6637
+							],
+							[
+								6664,
+								6680
+							],
+							[
+								6694,
+								6712
+							],
+							[
+								6732,
+								6745
+							],
+							[
+								6791,
+								6805
+							],
+							[
+								6822,
+								6836
+							],
+							[
+								6876,
+								6886
+							],
+							[
+								6900,
+								6913
+							],
+							[
+								6924,
+								6937
+							],
+							[
+								6970,
+								6979
+							],
+							[
+								6996,
+								7007
+							],
+							[
+								7022,
+								7037
+							],
+							[
+								7048,
+								7059
+							],
+							[
+								7074,
+								7082
+							],
+							[
+								7100,
+								7107
+							],
+							[
+								7126,
+								7133
+							],
+							[
+								7152,
+								7159
+							],
+							[
+								7178,
+								7185
+							],
+							[
+								7204,
+								7211
+							],
+							[
+								7230,
+								7240
+							],
+							[
+								7256,
+								7267
+							],
+							[
+								7282,
+								7294
+							],
+							[
+								7308,
+								7317
+							],
+							[
+								7362,
+								7370
+							],
+							[
+								7397,
+								7404
+							],
+							[
+								7439,
+								7446
+							],
+							[
+								7494,
+								7501
+							],
+							[
+								7546,
+								7553
+							],
+							[
+								7600,
+								7607
+							],
+							[
+								7710,
+								7722
+							],
+							[
+								7802,
+								7814
+							],
+							[
+								7894,
+								7906
+							],
+							[
+								8008,
+								8020
+							],
+							[
+								8122,
+								8134
+							],
+							[
+								8236,
+								8248
+							],
+							[
+								8311,
+								8320
+							],
+							[
+								8887,
+								8895
+							],
+							[
+								9628,
+								9639
+							],
+							[
+								9867,
+								9877
+							],
+							[
+								10335,
+								10352
+							],
+							[
+								10365,
+								10383
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  BOOTLOADER_H … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  HAS_EEPROM … — macro object",
+							" Ⓜ  ROOT_ENTRY_COUNT … — macro object",
+							" Ⓜ  FAT_SIZE … — macro object",
+							" Ⓜ  BOOT_SECT_ADDR … — macro object",
+							" Ⓜ  FAT_SECT_ADDR … — macro object",
+							" Ⓜ  ROOT_SECT_ADDR … — macro object",
+							" Ⓜ  DATA_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  EEPROM_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  FILE_CLUSTERS … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  BOOT_DUMMY … — macro object",
+							" Ⓜ  BOOT_LOAD_HEX … — macro object",
+							" Ⓜ  BOOT_FINISHED … — macro object",
+							" Ⓜ  HEX_START … — macro object",
+							" Ⓜ  HEX_REC_LEN … — macro object",
+							" Ⓜ  HEX_LOAD_OFFSET … — macro object",
+							" Ⓜ  HEX_RECTYPE … — macro object",
+							" Ⓜ  HEX_DATA … — macro object",
+							" Ⓜ  HEX_ELA … — macro object",
+							" Ⓜ  HEX_ESA … — macro object",
+							" Ⓜ  HEX_SLA … — macro object",
+							" Ⓜ  HEX_SSA … — macro object",
+							" Ⓜ  HEX_EOF … — macro object",
+							" Ⓜ  HEX_CHKSUM … — macro object",
+							" Ⓜ  HEX_PARSING … — macro object",
+							" Ⓜ  HEX_FINISHED … — macro object",
+							" Ⓜ  HEX_FAULT … — macro object",
+							" Ⓜ  DATA_REC … — macro object",
+							" Ⓜ  EOF_REC … — macro object",
+							" Ⓜ  ESA_REC … — macro object",
+							" Ⓜ  SSA_REC … — macro object",
+							" Ⓜ  ELA_REC … — macro object",
+							" Ⓜ  SLA_REC … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  ROOT_NAME … — macro object",
+							" Ⓣ  BOOT16_t ; — typedef",
+							" Ⓣ  DIR_ENTRY_t ; — typedef",
+							" Ⓣ  ROOT_DIR_t ; — typedef",
+							" ⒡  boot_process_read ( ) ; — function declaration",
+							" ⒡  boot_process_write ( ) ; — function declaration"
+						]
+					},
+					"AQAAAAAAAAAAAAAAQA0AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					115,
+					1,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAACIDwAA4pOCICBCT09UTE9BREVSX0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUEFHRV9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIERFVl9JRF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfQkxPQ0tfUkVHSU9OIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRklMRV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1BBR0VfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBERVZfSURfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX1NJWkUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIQVNfRUVQUk9NIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9FTlRSWV9DT1VOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZBVF9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGQVRfU0VDVF9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBEQVRBX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfTUVNX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVFUFJPTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX0NMVVNURVJTIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19NRU1fQ0xVU1Qg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9DTFVTVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfRFVNTVkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX0xPQURfSEVYIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9GSU5JU0hFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9SRUNfTEVOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0xPQURfT0ZGU0VUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1JFQ1RZUEUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfREFUQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9FTEEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRVNBIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1NMQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TU0Eg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRU9GIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0NIS1NVTSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9QQVJTSU5HIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZJTklTSEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZBVUxUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREFUQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFT0ZfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRVNBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNTQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTEFfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0xBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJPT1RfTkFNRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4kgIEJPT1QxNl90IDsg4oCUIHR5cGVkZWYK4pOJICBESVJfRU5UUllfdCA7IOKAlCB0eXBlZGVmCuKTiSAgUk9PVF9ESVJfdCA7IOKAlCB0eXBlZGVmCuKSoSAgYm9vdF9wcm9jZXNzX3JlYWQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgYm9vdF9wcm9jZXNzX3dyaXRlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					116,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.h",
+						"symkeys":
+						[
+							[
+								827,
+								839
+							],
+							[
+								4019,
+								4036
+							],
+							[
+								4057,
+								4074
+							],
+							[
+								4095,
+								4107
+							],
+							[
+								4133,
+								4152
+							],
+							[
+								4171,
+								4190
+							],
+							[
+								4221,
+								4238
+							],
+							[
+								4271,
+								4283
+							],
+							[
+								4330,
+								4339
+							],
+							[
+								4415,
+								4432
+							],
+							[
+								4453,
+								4470
+							],
+							[
+								4491,
+								4503
+							],
+							[
+								4529,
+								4544
+							],
+							[
+								4568,
+								4587
+							],
+							[
+								4607,
+								4626
+							],
+							[
+								4657,
+								4674
+							],
+							[
+								4707,
+								4719
+							],
+							[
+								4746,
+								4765
+							],
+							[
+								4785,
+								4798
+							],
+							[
+								4824,
+								4835
+							],
+							[
+								4881,
+								4890
+							],
+							[
+								4966,
+								4983
+							],
+							[
+								5004,
+								5021
+							],
+							[
+								5042,
+								5054
+							],
+							[
+								5080,
+								5095
+							],
+							[
+								5119,
+								5138
+							],
+							[
+								5158,
+								5177
+							],
+							[
+								5208,
+								5225
+							],
+							[
+								5258,
+								5270
+							],
+							[
+								5297,
+								5316
+							],
+							[
+								5336,
+								5349
+							],
+							[
+								5375,
+								5386
+							],
+							[
+								5432,
+								5441
+							],
+							[
+								5517,
+								5534
+							],
+							[
+								5555,
+								5572
+							],
+							[
+								5593,
+								5612
+							],
+							[
+								5631,
+								5650
+							],
+							[
+								5669,
+								5686
+							],
+							[
+								5707,
+								5719
+							],
+							[
+								5745,
+								5757
+							],
+							[
+								5805,
+								5814
+							],
+							[
+								5891,
+								5908
+							],
+							[
+								5929,
+								5946
+							],
+							[
+								5967,
+								5986
+							],
+							[
+								6005,
+								6024
+							],
+							[
+								6043,
+								6060
+							],
+							[
+								6081,
+								6093
+							],
+							[
+								6119,
+								6131
+							],
+							[
+								6179,
+								6188
+							],
+							[
+								6299,
+								6309
+							],
+							[
+								6358,
+								6374
+							],
+							[
+								6386,
+								6394
+							],
+							[
+								6407,
+								6421
+							],
+							[
+								6436,
+								6449
+							],
+							[
+								6465,
+								6479
+							],
+							[
+								6495,
+								6509
+							],
+							[
+								6544,
+								6559
+							],
+							[
+								6586,
+								6604
+							],
+							[
+								6622,
+								6637
+							],
+							[
+								6664,
+								6680
+							],
+							[
+								6694,
+								6712
+							],
+							[
+								6732,
+								6745
+							],
+							[
+								6791,
+								6805
+							],
+							[
+								6822,
+								6836
+							],
+							[
+								6876,
+								6886
+							],
+							[
+								6900,
+								6913
+							],
+							[
+								6924,
+								6937
+							],
+							[
+								6970,
+								6979
+							],
+							[
+								6996,
+								7007
+							],
+							[
+								7022,
+								7037
+							],
+							[
+								7048,
+								7059
+							],
+							[
+								7074,
+								7082
+							],
+							[
+								7100,
+								7107
+							],
+							[
+								7126,
+								7133
+							],
+							[
+								7152,
+								7159
+							],
+							[
+								7178,
+								7185
+							],
+							[
+								7204,
+								7211
+							],
+							[
+								7230,
+								7240
+							],
+							[
+								7256,
+								7267
+							],
+							[
+								7282,
+								7294
+							],
+							[
+								7308,
+								7317
+							],
+							[
+								7362,
+								7370
+							],
+							[
+								7397,
+								7404
+							],
+							[
+								7439,
+								7446
+							],
+							[
+								7494,
+								7501
+							],
+							[
+								7546,
+								7553
+							],
+							[
+								7600,
+								7607
+							],
+							[
+								7710,
+								7722
+							],
+							[
+								7802,
+								7814
+							],
+							[
+								7894,
+								7906
+							],
+							[
+								8008,
+								8020
+							],
+							[
+								8122,
+								8134
+							],
+							[
+								8236,
+								8248
+							],
+							[
+								8311,
+								8320
+							],
+							[
+								8887,
+								8895
+							],
+							[
+								9628,
+								9639
+							],
+							[
+								9867,
+								9877
+							],
+							[
+								10335,
+								10352
+							],
+							[
+								10365,
+								10383
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  BOOTLOADER_H … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  HAS_EEPROM … — macro object",
+							" Ⓜ  ROOT_ENTRY_COUNT … — macro object",
+							" Ⓜ  FAT_SIZE … — macro object",
+							" Ⓜ  BOOT_SECT_ADDR … — macro object",
+							" Ⓜ  FAT_SECT_ADDR … — macro object",
+							" Ⓜ  ROOT_SECT_ADDR … — macro object",
+							" Ⓜ  DATA_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  EEPROM_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  FILE_CLUSTERS … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  BOOT_DUMMY … — macro object",
+							" Ⓜ  BOOT_LOAD_HEX … — macro object",
+							" Ⓜ  BOOT_FINISHED … — macro object",
+							" Ⓜ  HEX_START … — macro object",
+							" Ⓜ  HEX_REC_LEN … — macro object",
+							" Ⓜ  HEX_LOAD_OFFSET … — macro object",
+							" Ⓜ  HEX_RECTYPE … — macro object",
+							" Ⓜ  HEX_DATA … — macro object",
+							" Ⓜ  HEX_ELA … — macro object",
+							" Ⓜ  HEX_ESA … — macro object",
+							" Ⓜ  HEX_SLA … — macro object",
+							" Ⓜ  HEX_SSA … — macro object",
+							" Ⓜ  HEX_EOF … — macro object",
+							" Ⓜ  HEX_CHKSUM … — macro object",
+							" Ⓜ  HEX_PARSING … — macro object",
+							" Ⓜ  HEX_FINISHED … — macro object",
+							" Ⓜ  HEX_FAULT … — macro object",
+							" Ⓜ  DATA_REC … — macro object",
+							" Ⓜ  EOF_REC … — macro object",
+							" Ⓜ  ESA_REC … — macro object",
+							" Ⓜ  SSA_REC … — macro object",
+							" Ⓜ  ELA_REC … — macro object",
+							" Ⓜ  SLA_REC … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  ROOT_NAME … — macro object",
+							" Ⓣ  BOOT16_t ; — typedef",
+							" Ⓣ  DIR_ENTRY_t ; — typedef",
+							" Ⓣ  ROOT_DIR_t ; — typedef",
+							" ⒡  boot_process_read ( ) ; — function declaration",
+							" ⒡  boot_process_write ( ) ; — function declaration"
+						]
+					},
+					"AQAAAAAAAAAAAAAAQA0AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					117,
+					2,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AwAAAAAAAAAAAAAAAAAAAAAAAACIDwAA4pOCICBCT09UTE9BREVSX0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUEFHRV9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIERFVl9JRF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfQkxPQ0tfUkVHSU9OIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRklMRV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1BBR0VfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBERVZfSURfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX1NJWkUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIQVNfRUVQUk9NIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9FTlRSWV9DT1VOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZBVF9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGQVRfU0VDVF9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBEQVRBX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfTUVNX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVFUFJPTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX0NMVVNURVJTIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19NRU1fQ0xVU1Qg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9DTFVTVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfRFVNTVkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX0xPQURfSEVYIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9GSU5JU0hFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9SRUNfTEVOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0xPQURfT0ZGU0VUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1JFQ1RZUEUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfREFUQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9FTEEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRVNBIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1NMQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TU0Eg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRU9GIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0NIS1NVTSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9QQVJTSU5HIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZJTklTSEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZBVUxUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREFUQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFT0ZfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRVNBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNTQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTEFfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0xBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJPT1RfTkFNRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4kgIEJPT1QxNl90IDsg4oCUIHR5cGVkZWYK4pOJICBESVJfRU5UUllfdCA7IOKAlCB0eXBlZGVmCuKTiSAgUk9PVF9ESVJfdCA7IOKAlCB0eXBlZGVmCuKSoSAgYm9vdF9wcm9jZXNzX3JlYWQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgYm9vdF9wcm9jZXNzX3dyaXRlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					118,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.c",
+						"symkeys":
+						[
+							[
+								1053,
+								1069
+							],
+							[
+								1108,
+								1124
+							],
+							[
+								1160,
+								1170
+							],
+							[
+								1214,
+								1229
+							],
+							[
+								1456,
+								1465
+							],
+							[
+								1496,
+								1514
+							],
+							[
+								1578,
+								1590
+							],
+							[
+								1614,
+								1630
+							],
+							[
+								1662,
+								1679
+							],
+							[
+								1712,
+								1723
+							],
+							[
+								1747,
+								1765
+							],
+							[
+								1804,
+								1814
+							],
+							[
+								1835,
+								1853
+							],
+							[
+								3504,
+								3516
+							],
+							[
+								5855,
+								5872
+							],
+							[
+								9914,
+								9932
+							],
+							[
+								12981,
+								12990
+							],
+							[
+								18679,
+								18695
+							],
+							[
+								18931,
+								18942
+							],
+							[
+								19180,
+								19198
+							],
+							[
+								20317,
+								20334
+							],
+							[
+								20463,
+								20473
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  INDEX_MASK … — macro object",
+							" Ⓜ  FLASH_ADDR_MASK … — macro object",
+							" ⒡  hex_parse ( ) ; — function declaration",
+							" ⒡  update_erase_block ( ) ; — function declaration",
+							" ⒡  generate_FAT ( ) ; — function declaration",
+							" ⒡  hex_char_to_char ( ) ; — function declaration",
+							" ⒡  LBA_to_flash_addr ( ) ; — function declaration",
+							" ⒡  delete_file ( ) ; — function declaration",
+							" ⒡  safely_write_block ( ) ; — function declaration",
+							" ⒡  get_device ( ) ; — function declaration",
+							"—Ⓕ– update_erase_block ( ) { … } — function",
+							"—Ⓕ– generate_FAT ( ) { … } — function",
+							"—Ⓕ– boot_process_read ( ) { … } — function",
+							"—Ⓕ– boot_process_write ( ) { … } — function",
+							"—Ⓕ– hex_parse ( ) { … } — function",
+							"—Ⓕ– hex_char_to_char ( ) { … } — function",
+							"—Ⓕ– delete_file ( ) { … } — function",
+							"—Ⓕ– safely_write_block ( ) { … } — function",
+							"—Ⓕ– LBA_to_flash_addr ( ) { … } — function",
+							"—Ⓕ– get_device ( ) { … } — function"
+						]
+					},
+					"AQAAAAAAAAAAAAAAmQMAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					119,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.h",
+						"symkeys":
+						[
+							[
+								827,
+								839
+							],
+							[
+								4019,
+								4036
+							],
+							[
+								4057,
+								4074
+							],
+							[
+								4095,
+								4107
+							],
+							[
+								4133,
+								4152
+							],
+							[
+								4171,
+								4190
+							],
+							[
+								4221,
+								4238
+							],
+							[
+								4271,
+								4283
+							],
+							[
+								4330,
+								4339
+							],
+							[
+								4415,
+								4432
+							],
+							[
+								4453,
+								4470
+							],
+							[
+								4491,
+								4503
+							],
+							[
+								4529,
+								4544
+							],
+							[
+								4568,
+								4587
+							],
+							[
+								4607,
+								4626
+							],
+							[
+								4657,
+								4674
+							],
+							[
+								4707,
+								4719
+							],
+							[
+								4746,
+								4765
+							],
+							[
+								4785,
+								4798
+							],
+							[
+								4824,
+								4835
+							],
+							[
+								4881,
+								4890
+							],
+							[
+								4966,
+								4983
+							],
+							[
+								5004,
+								5021
+							],
+							[
+								5042,
+								5054
+							],
+							[
+								5080,
+								5095
+							],
+							[
+								5119,
+								5138
+							],
+							[
+								5158,
+								5177
+							],
+							[
+								5208,
+								5225
+							],
+							[
+								5258,
+								5270
+							],
+							[
+								5297,
+								5316
+							],
+							[
+								5336,
+								5349
+							],
+							[
+								5375,
+								5386
+							],
+							[
+								5432,
+								5441
+							],
+							[
+								5517,
+								5534
+							],
+							[
+								5555,
+								5572
+							],
+							[
+								5593,
+								5612
+							],
+							[
+								5631,
+								5650
+							],
+							[
+								5669,
+								5686
+							],
+							[
+								5707,
+								5719
+							],
+							[
+								5745,
+								5757
+							],
+							[
+								5805,
+								5814
+							],
+							[
+								5891,
+								5908
+							],
+							[
+								5929,
+								5946
+							],
+							[
+								5967,
+								5986
+							],
+							[
+								6005,
+								6024
+							],
+							[
+								6043,
+								6060
+							],
+							[
+								6081,
+								6093
+							],
+							[
+								6119,
+								6131
+							],
+							[
+								6179,
+								6188
+							],
+							[
+								6299,
+								6309
+							],
+							[
+								6358,
+								6374
+							],
+							[
+								6386,
+								6394
+							],
+							[
+								6407,
+								6421
+							],
+							[
+								6436,
+								6449
+							],
+							[
+								6465,
+								6479
+							],
+							[
+								6495,
+								6509
+							],
+							[
+								6544,
+								6559
+							],
+							[
+								6586,
+								6604
+							],
+							[
+								6622,
+								6637
+							],
+							[
+								6664,
+								6680
+							],
+							[
+								6694,
+								6712
+							],
+							[
+								6732,
+								6745
+							],
+							[
+								6791,
+								6805
+							],
+							[
+								6822,
+								6836
+							],
+							[
+								6876,
+								6886
+							],
+							[
+								6900,
+								6913
+							],
+							[
+								6924,
+								6937
+							],
+							[
+								6970,
+								6979
+							],
+							[
+								6996,
+								7007
+							],
+							[
+								7022,
+								7037
+							],
+							[
+								7048,
+								7059
+							],
+							[
+								7074,
+								7082
+							],
+							[
+								7100,
+								7107
+							],
+							[
+								7126,
+								7133
+							],
+							[
+								7152,
+								7159
+							],
+							[
+								7178,
+								7185
+							],
+							[
+								7204,
+								7211
+							],
+							[
+								7230,
+								7240
+							],
+							[
+								7256,
+								7267
+							],
+							[
+								7282,
+								7294
+							],
+							[
+								7308,
+								7317
+							],
+							[
+								7362,
+								7370
+							],
+							[
+								7397,
+								7404
+							],
+							[
+								7439,
+								7446
+							],
+							[
+								7494,
+								7501
+							],
+							[
+								7546,
+								7553
+							],
+							[
+								7600,
+								7607
+							],
+							[
+								7710,
+								7722
+							],
+							[
+								7802,
+								7814
+							],
+							[
+								7894,
+								7906
+							],
+							[
+								8008,
+								8020
+							],
+							[
+								8122,
+								8134
+							],
+							[
+								8236,
+								8248
+							],
+							[
+								8311,
+								8320
+							],
+							[
+								8887,
+								8895
+							],
+							[
+								9628,
+								9639
+							],
+							[
+								9867,
+								9877
+							],
+							[
+								10335,
+								10352
+							],
+							[
+								10365,
+								10383
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  BOOTLOADER_H … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  HAS_EEPROM … — macro object",
+							" Ⓜ  ROOT_ENTRY_COUNT … — macro object",
+							" Ⓜ  FAT_SIZE … — macro object",
+							" Ⓜ  BOOT_SECT_ADDR … — macro object",
+							" Ⓜ  FAT_SECT_ADDR … — macro object",
+							" Ⓜ  ROOT_SECT_ADDR … — macro object",
+							" Ⓜ  DATA_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  EEPROM_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  FILE_CLUSTERS … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  BOOT_DUMMY … — macro object",
+							" Ⓜ  BOOT_LOAD_HEX … — macro object",
+							" Ⓜ  BOOT_FINISHED … — macro object",
+							" Ⓜ  HEX_START … — macro object",
+							" Ⓜ  HEX_REC_LEN … — macro object",
+							" Ⓜ  HEX_LOAD_OFFSET … — macro object",
+							" Ⓜ  HEX_RECTYPE … — macro object",
+							" Ⓜ  HEX_DATA … — macro object",
+							" Ⓜ  HEX_ELA … — macro object",
+							" Ⓜ  HEX_ESA … — macro object",
+							" Ⓜ  HEX_SLA … — macro object",
+							" Ⓜ  HEX_SSA … — macro object",
+							" Ⓜ  HEX_EOF … — macro object",
+							" Ⓜ  HEX_CHKSUM … — macro object",
+							" Ⓜ  HEX_PARSING … — macro object",
+							" Ⓜ  HEX_FINISHED … — macro object",
+							" Ⓜ  HEX_FAULT … — macro object",
+							" Ⓜ  DATA_REC … — macro object",
+							" Ⓜ  EOF_REC … — macro object",
+							" Ⓜ  ESA_REC … — macro object",
+							" Ⓜ  SSA_REC … — macro object",
+							" Ⓜ  ELA_REC … — macro object",
+							" Ⓜ  SLA_REC … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  ROOT_NAME … — macro object",
+							" Ⓣ  BOOT16_t ; — typedef",
+							" Ⓣ  DIR_ENTRY_t ; — typedef",
+							" Ⓣ  ROOT_DIR_t ; — typedef",
+							" ⒡  boot_process_read ( ) ; — function declaration",
+							" ⒡  boot_process_write ( ) ; — function declaration"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAA1BAAA4pOCICBGTEFTSF9XUklURV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRkxBU0hfV1JJVEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIElOREVYX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGTEFTSF9BRERSX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pKhICBoZXhfcGFyc2UgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdlbmVyYXRlX0ZBVCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBoZXhfY2hhcl90b19jaGFyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIExCQV90b19mbGFzaF9hZGRyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGRlbGV0ZV9maWxlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNhZmVseV93cml0ZV9ibG9jayAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBnZXRfZGV2aWNlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrigJTikrvigJMgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZ2VuZXJhdGVfRkFUICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgYm9vdF9wcm9jZXNzX3JlYWQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBib290X3Byb2Nlc3Nfd3JpdGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfcGFyc2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfY2hhcl90b19jaGFyICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZGVsZXRlX2ZpbGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBzYWZlbHlfd3JpdGVfYmxvY2sgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBMQkFfdG9fZmxhc2hfYWRkciAoICkgeyDigKYgfSDigJQgZnVuY3Rpb24K4oCU4pK74oCTIGdldF9kZXZpY2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uAAAAAAAAAABADQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					120,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.c",
+						"symkeys":
+						[
+							[
+								1053,
+								1069
+							],
+							[
+								1108,
+								1124
+							],
+							[
+								1160,
+								1170
+							],
+							[
+								1214,
+								1229
+							],
+							[
+								1456,
+								1465
+							],
+							[
+								1496,
+								1514
+							],
+							[
+								1578,
+								1590
+							],
+							[
+								1614,
+								1630
+							],
+							[
+								1662,
+								1679
+							],
+							[
+								1712,
+								1723
+							],
+							[
+								1747,
+								1765
+							],
+							[
+								1804,
+								1814
+							],
+							[
+								1835,
+								1853
+							],
+							[
+								3504,
+								3516
+							],
+							[
+								5855,
+								5872
+							],
+							[
+								9914,
+								9932
+							],
+							[
+								12981,
+								12990
+							],
+							[
+								18679,
+								18695
+							],
+							[
+								18931,
+								18942
+							],
+							[
+								19180,
+								19198
+							],
+							[
+								20317,
+								20334
+							],
+							[
+								20463,
+								20473
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  INDEX_MASK … — macro object",
+							" Ⓜ  FLASH_ADDR_MASK … — macro object",
+							" ⒡  hex_parse ( ) ; — function declaration",
+							" ⒡  update_erase_block ( ) ; — function declaration",
+							" ⒡  generate_FAT ( ) ; — function declaration",
+							" ⒡  hex_char_to_char ( ) ; — function declaration",
+							" ⒡  LBA_to_flash_addr ( ) ; — function declaration",
+							" ⒡  delete_file ( ) ; — function declaration",
+							" ⒡  safely_write_block ( ) ; — function declaration",
+							" ⒡  get_device ( ) ; — function declaration",
+							"—Ⓕ– update_erase_block ( ) { … } — function",
+							"—Ⓕ– generate_FAT ( ) { … } — function",
+							"—Ⓕ– boot_process_read ( ) { … } — function",
+							"—Ⓕ– boot_process_write ( ) { … } — function",
+							"—Ⓕ– hex_parse ( ) { … } — function",
+							"—Ⓕ– hex_char_to_char ( ) { … } — function",
+							"—Ⓕ– delete_file ( ) { … } — function",
+							"—Ⓕ– safely_write_block ( ) { … } — function",
+							"—Ⓕ– LBA_to_flash_addr ( ) { … } — function",
+							"—Ⓕ– get_device ( ) { … } — function"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAACIDwAA4pOCICBCT09UTE9BREVSX0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUEFHRV9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIERFVl9JRF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfQkxPQ0tfUkVHSU9OIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRklMRV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1BBR0VfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBERVZfSURfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX1NJWkUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIQVNfRUVQUk9NIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9FTlRSWV9DT1VOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZBVF9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGQVRfU0VDVF9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBEQVRBX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfTUVNX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVFUFJPTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX0NMVVNURVJTIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19NRU1fQ0xVU1Qg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9DTFVTVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfRFVNTVkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX0xPQURfSEVYIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9GSU5JU0hFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9SRUNfTEVOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0xPQURfT0ZGU0VUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1JFQ1RZUEUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfREFUQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9FTEEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRVNBIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1NMQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TU0Eg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRU9GIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0NIS1NVTSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9QQVJTSU5HIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZJTklTSEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZBVUxUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREFUQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFT0ZfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRVNBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNTQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTEFfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0xBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJPT1RfTkFNRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4kgIEJPT1QxNl90IDsg4oCUIHR5cGVkZWYK4pOJICBESVJfRU5UUllfdCA7IOKAlCB0eXBlZGVmCuKTiSAgUk9PVF9ESVJfdCA7IOKAlCB0eXBlZGVmCuKSoSAgYm9vdF9wcm9jZXNzX3JlYWQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgYm9vdF9wcm9jZXNzX3dyaXRlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgAAAAAAAAAAmQMAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAA"
+				],
+				[
+					1,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/opencv/samples/cpp/grabcut.cpp",
+						"symkeys":
+						[
+							[
+								133,
+								136
+							],
+							[
+								154,
+								156
+							],
+							[
+								171,
+								175
+							],
+							[
+								1319,
+								1329
+							],
+							[
+								1688,
+								1701
+							],
+							[
+								1842,
+								1847
+							],
+							[
+								1860,
+								1878
+							],
+							[
+								1934,
+								1943
+							],
+							[
+								1962,
+								1972
+							],
+							[
+								2033,
+								2041
+							],
+							[
+								2053,
+								2065
+							],
+							[
+								2114,
+								2127
+							],
+							[
+								2140,
+								2153
+							],
+							[
+								2452,
+								2472
+							],
+							[
+								2755,
+								2788
+							],
+							[
+								3007,
+								3031
+							],
+							[
+								4109,
+								4137
+							],
+							[
+								4421,
+								4449
+							],
+							[
+								5058,
+								5083
+							],
+							[
+								7592,
+								7615
+							],
+							[
+								8214,
+								8222
+							],
+							[
+								8334,
+								8338
+							]
+						],
+						"symlist":
+						[
+							"std",
+							"cv",
+							"help",
+							"getBinMask",
+							"GCApplication",
+							" reset",
+							" setImageAndWinName",
+							" showImage",
+							" mouseClick",
+							" nextIter",
+							" getIterCount",
+							" setRectInMask",
+							" setLblsInMask",
+							"GCApplication::reset",
+							"GCApplication::setImageAndWinName",
+							"GCApplication::showImage",
+							"GCApplication::setRectInMask",
+							"GCApplication::setLblsInMask",
+							"GCApplication::mouseClick",
+							"GCApplication::nextIter",
+							"on_mouse",
+							"main"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAA1BAAA4pOCICBGTEFTSF9XUklURV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRkxBU0hfV1JJVEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIElOREVYX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGTEFTSF9BRERSX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pKhICBoZXhfcGFyc2UgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdlbmVyYXRlX0ZBVCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBoZXhfY2hhcl90b19jaGFyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIExCQV90b19mbGFzaF9hZGRyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGRlbGV0ZV9maWxlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNhZmVseV93cml0ZV9ibG9jayAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBnZXRfZGV2aWNlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrigJTikrvigJMgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZ2VuZXJhdGVfRkFUICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgYm9vdF9wcm9jZXNzX3JlYWQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBib290X3Byb2Nlc3Nfd3JpdGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfcGFyc2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfY2hhcl90b19jaGFyICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZGVsZXRlX2ZpbGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBzYWZlbHlfd3JpdGVfYmxvY2sgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBMQkFfdG9fZmxhc2hfYWRkciAoICkgeyDigKYgfSDigJQgZnVuY3Rpb24K4oCU4pK74oCTIGdldF9kZXZpY2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uAAAAAAAAAABaAQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					2,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.c",
+						"symkeys":
+						[
+							[
+								1053,
+								1069
+							],
+							[
+								1108,
+								1124
+							],
+							[
+								1160,
+								1170
+							],
+							[
+								1214,
+								1229
+							],
+							[
+								1456,
+								1465
+							],
+							[
+								1496,
+								1514
+							],
+							[
+								1578,
+								1590
+							],
+							[
+								1614,
+								1630
+							],
+							[
+								1662,
+								1679
+							],
+							[
+								1712,
+								1723
+							],
+							[
+								1747,
+								1765
+							],
+							[
+								1804,
+								1814
+							],
+							[
+								1835,
+								1853
+							],
+							[
+								3504,
+								3516
+							],
+							[
+								5855,
+								5872
+							],
+							[
+								9914,
+								9932
+							],
+							[
+								12981,
+								12990
+							],
+							[
+								18679,
+								18695
+							],
+							[
+								18931,
+								18942
+							],
+							[
+								19180,
+								19198
+							],
+							[
+								20317,
+								20334
+							],
+							[
+								20463,
+								20473
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  FLASH_WRITE_SIZE … — macro object",
+							" Ⓜ  INDEX_MASK … — macro object",
+							" Ⓜ  FLASH_ADDR_MASK … — macro object",
+							" ⒡  hex_parse ( ) ; — function declaration",
+							" ⒡  update_erase_block ( ) ; — function declaration",
+							" ⒡  generate_FAT ( ) ; — function declaration",
+							" ⒡  hex_char_to_char ( ) ; — function declaration",
+							" ⒡  LBA_to_flash_addr ( ) ; — function declaration",
+							" ⒡  delete_file ( ) ; — function declaration",
+							" ⒡  safely_write_block ( ) ; — function declaration",
+							" ⒡  get_device ( ) ; — function declaration",
+							"—Ⓕ– update_erase_block ( ) { … } — function",
+							"—Ⓕ– generate_FAT ( ) { … } — function",
+							"—Ⓕ– boot_process_read ( ) { … } — function",
+							"—Ⓕ– boot_process_write ( ) { … } — function",
+							"—Ⓕ– hex_parse ( ) { … } — function",
+							"—Ⓕ– hex_char_to_char ( ) { … } — function",
+							"—Ⓕ– delete_file ( ) { … } — function",
+							"—Ⓕ– safely_write_block ( ) { … } — function",
+							"—Ⓕ– LBA_to_flash_addr ( ) { … } — function",
+							"—Ⓕ– get_device ( ) { … } — function"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABaAQAAICBzdGQKICBjdgogIGhlbHAKICBnZXRCaW5NYXNrCkdDQXBwbGljYXRpb24KcmVzZXQKc2V0SW1hZ2VBbmRXaW5OYW1lCnNob3dJbWFnZQptb3VzZUNsaWNrCm5leHRJdGVyCmdldEl0ZXJDb3VudApzZXRSZWN0SW5NYXNrCnNldExibHNJbk1hc2sKR0NBcHBsaWNhdGlvbjo6cmVzZXQKR0NBcHBsaWNhdGlvbjo6c2V0SW1hZ2VBbmRXaW5OYW1lCkdDQXBwbGljYXRpb246OnNob3dJbWFnZQpHQ0FwcGxpY2F0aW9uOjpzZXRSZWN0SW5NYXNrCkdDQXBwbGljYXRpb246OnNldExibHNJbk1hc2sKR0NBcHBsaWNhdGlvbjo6bW91c2VDbGljawpHQ0FwcGxpY2F0aW9uOjpuZXh0SXRlcgogIG9uX21vdXNlCiAgbWFpbgAAAAAAAAAAmQMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAA"
+				],
+				[
+					3,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.h",
+						"symkeys":
+						[
+							[
+								827,
+								839
+							],
+							[
+								4019,
+								4036
+							],
+							[
+								4057,
+								4074
+							],
+							[
+								4095,
+								4107
+							],
+							[
+								4133,
+								4152
+							],
+							[
+								4171,
+								4190
+							],
+							[
+								4221,
+								4238
+							],
+							[
+								4271,
+								4283
+							],
+							[
+								4330,
+								4339
+							],
+							[
+								4415,
+								4432
+							],
+							[
+								4453,
+								4470
+							],
+							[
+								4491,
+								4503
+							],
+							[
+								4529,
+								4544
+							],
+							[
+								4568,
+								4587
+							],
+							[
+								4607,
+								4626
+							],
+							[
+								4657,
+								4674
+							],
+							[
+								4707,
+								4719
+							],
+							[
+								4746,
+								4765
+							],
+							[
+								4785,
+								4798
+							],
+							[
+								4824,
+								4835
+							],
+							[
+								4881,
+								4890
+							],
+							[
+								4966,
+								4983
+							],
+							[
+								5004,
+								5021
+							],
+							[
+								5042,
+								5054
+							],
+							[
+								5080,
+								5095
+							],
+							[
+								5119,
+								5138
+							],
+							[
+								5158,
+								5177
+							],
+							[
+								5208,
+								5225
+							],
+							[
+								5258,
+								5270
+							],
+							[
+								5297,
+								5316
+							],
+							[
+								5336,
+								5349
+							],
+							[
+								5375,
+								5386
+							],
+							[
+								5432,
+								5441
+							],
+							[
+								5517,
+								5534
+							],
+							[
+								5555,
+								5572
+							],
+							[
+								5593,
+								5612
+							],
+							[
+								5631,
+								5650
+							],
+							[
+								5669,
+								5686
+							],
+							[
+								5707,
+								5719
+							],
+							[
+								5745,
+								5757
+							],
+							[
+								5805,
+								5814
+							],
+							[
+								5891,
+								5908
+							],
+							[
+								5929,
+								5946
+							],
+							[
+								5967,
+								5986
+							],
+							[
+								6005,
+								6024
+							],
+							[
+								6043,
+								6060
+							],
+							[
+								6081,
+								6093
+							],
+							[
+								6119,
+								6131
+							],
+							[
+								6179,
+								6188
+							],
+							[
+								6299,
+								6309
+							],
+							[
+								6358,
+								6374
+							],
+							[
+								6386,
+								6394
+							],
+							[
+								6407,
+								6421
+							],
+							[
+								6436,
+								6449
+							],
+							[
+								6465,
+								6479
+							],
+							[
+								6495,
+								6509
+							],
+							[
+								6544,
+								6559
+							],
+							[
+								6586,
+								6604
+							],
+							[
+								6622,
+								6637
+							],
+							[
+								6664,
+								6680
+							],
+							[
+								6694,
+								6712
+							],
+							[
+								6732,
+								6745
+							],
+							[
+								6791,
+								6805
+							],
+							[
+								6822,
+								6836
+							],
+							[
+								6876,
+								6886
+							],
+							[
+								6900,
+								6913
+							],
+							[
+								6924,
+								6937
+							],
+							[
+								6970,
+								6979
+							],
+							[
+								6996,
+								7007
+							],
+							[
+								7022,
+								7037
+							],
+							[
+								7048,
+								7059
+							],
+							[
+								7074,
+								7082
+							],
+							[
+								7100,
+								7107
+							],
+							[
+								7126,
+								7133
+							],
+							[
+								7152,
+								7159
+							],
+							[
+								7178,
+								7185
+							],
+							[
+								7204,
+								7211
+							],
+							[
+								7230,
+								7240
+							],
+							[
+								7256,
+								7267
+							],
+							[
+								7282,
+								7294
+							],
+							[
+								7308,
+								7317
+							],
+							[
+								7362,
+								7370
+							],
+							[
+								7397,
+								7404
+							],
+							[
+								7439,
+								7446
+							],
+							[
+								7494,
+								7501
+							],
+							[
+								7546,
+								7553
+							],
+							[
+								7600,
+								7607
+							],
+							[
+								7710,
+								7722
+							],
+							[
+								7802,
+								7814
+							],
+							[
+								7894,
+								7906
+							],
+							[
+								8008,
+								8020
+							],
+							[
+								8122,
+								8134
+							],
+							[
+								8236,
+								8248
+							],
+							[
+								8311,
+								8320
+							],
+							[
+								8887,
+								8895
+							],
+							[
+								9628,
+								9639
+							],
+							[
+								9867,
+								9877
+							],
+							[
+								10335,
+								10352
+							],
+							[
+								10365,
+								10383
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  BOOTLOADER_H … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  ID_REGION_START … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  EEPROM_REGION_START … — macro object",
+							" Ⓜ  END_OF_EEPROM … — macro object",
+							" Ⓜ  EEPROM_SIZE … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  BOOT_REGION_START … — macro object",
+							" Ⓜ  PROG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_BLOCK_REGION … — macro object",
+							" Ⓜ  CONFIG_REGION_START … — macro object",
+							" Ⓜ  CONFIG_PAGE_START … — macro object",
+							" Ⓜ  END_OF_FLASH … — macro object",
+							" Ⓜ  DEV_ID_START … — macro object",
+							" Ⓜ  FILE_SIZE … — macro object",
+							" Ⓜ  HAS_EEPROM … — macro object",
+							" Ⓜ  ROOT_ENTRY_COUNT … — macro object",
+							" Ⓜ  FAT_SIZE … — macro object",
+							" Ⓜ  BOOT_SECT_ADDR … — macro object",
+							" Ⓜ  FAT_SECT_ADDR … — macro object",
+							" Ⓜ  ROOT_SECT_ADDR … — macro object",
+							" Ⓜ  DATA_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  ABOUT_SECT_ADDR … — macro object",
+							" Ⓜ  EEPROM_SECT_ADDR … — macro object",
+							" Ⓜ  PROG_MEM_SECT_ADDR … — macro object",
+							" Ⓜ  FILE_CLUSTERS … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  PROG_MEM_CLUST … — macro object",
+							" Ⓜ  BOOT_DUMMY … — macro object",
+							" Ⓜ  BOOT_LOAD_HEX … — macro object",
+							" Ⓜ  BOOT_FINISHED … — macro object",
+							" Ⓜ  HEX_START … — macro object",
+							" Ⓜ  HEX_REC_LEN … — macro object",
+							" Ⓜ  HEX_LOAD_OFFSET … — macro object",
+							" Ⓜ  HEX_RECTYPE … — macro object",
+							" Ⓜ  HEX_DATA … — macro object",
+							" Ⓜ  HEX_ELA … — macro object",
+							" Ⓜ  HEX_ESA … — macro object",
+							" Ⓜ  HEX_SLA … — macro object",
+							" Ⓜ  HEX_SSA … — macro object",
+							" Ⓜ  HEX_EOF … — macro object",
+							" Ⓜ  HEX_CHKSUM … — macro object",
+							" Ⓜ  HEX_PARSING … — macro object",
+							" Ⓜ  HEX_FINISHED … — macro object",
+							" Ⓜ  HEX_FAULT … — macro object",
+							" Ⓜ  DATA_REC … — macro object",
+							" Ⓜ  EOF_REC … — macro object",
+							" Ⓜ  ESA_REC … — macro object",
+							" Ⓜ  SSA_REC … — macro object",
+							" Ⓜ  ELA_REC … — macro object",
+							" Ⓜ  SLA_REC … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  VOLUME_LABEL … — macro object",
+							" Ⓜ  ROOT_NAME … — macro object",
+							" Ⓣ  BOOT16_t ; — typedef",
+							" Ⓣ  DIR_ENTRY_t ; — typedef",
+							" Ⓣ  ROOT_DIR_t ; — typedef",
+							" ⒡  boot_process_read ( ) ; — function declaration",
+							" ⒡  boot_process_write ( ) ; — function declaration"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAA1BAAA4pOCICBGTEFTSF9XUklURV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRkxBU0hfV1JJVEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIElOREVYX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGTEFTSF9BRERSX01BU0sg4oCmIOKAlCBtYWNybyBvYmplY3QK4pKhICBoZXhfcGFyc2UgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGdlbmVyYXRlX0ZBVCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBoZXhfY2hhcl90b19jaGFyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIExCQV90b19mbGFzaF9hZGRyICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIGRlbGV0ZV9maWxlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIHNhZmVseV93cml0ZV9ibG9jayAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBnZXRfZGV2aWNlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrigJTikrvigJMgdXBkYXRlX2VyYXNlX2Jsb2NrICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZ2VuZXJhdGVfRkFUICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgYm9vdF9wcm9jZXNzX3JlYWQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBib290X3Byb2Nlc3Nfd3JpdGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfcGFyc2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBoZXhfY2hhcl90b19jaGFyICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgZGVsZXRlX2ZpbGUgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBzYWZlbHlfd3JpdGVfYmxvY2sgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBMQkFfdG9fZmxhc2hfYWRkciAoICkgeyDigKYgfSDigJQgZnVuY3Rpb24K4oCU4pK74oCTIGdldF9kZXZpY2UgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uAAAAAAAAAABADQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAA"
+				],
+				[
+					4,
+					1,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAACIDwAA4pOCICBCT09UTE9BREVSX0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUEFHRV9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIERFVl9JRF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBJRF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX0JMT0NLX1JFR0lPTiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRUVQUk9NX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVORF9PRl9FRVBST00g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFRVBST01fU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZJTEVfU0laRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfQkxPQ0tfUkVHSU9OIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19QQUdFX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRU5EX09GX0ZMQVNIIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREVWX0lEX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRklMRV9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9SRUdJT05fU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX1JFR0lPTl9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTkZJR19CTE9DS19SRUdJT04g4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDT05GSUdfUkVHSU9OX1NUQVJUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09ORklHX1BBR0VfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTkRfT0ZfRkxBU0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBERVZfSURfU1RBUlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX1NJWkUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIQVNfRUVQUk9NIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9FTlRSWV9DT1VOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEZBVF9TSVpFIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGQVRfU0VDVF9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUk9PVF9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBEQVRBX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBST0dfTUVNX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEFCT1VUX1NFQ1RfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEVFUFJPTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9TRUNUX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBGSUxFX0NMVVNURVJTIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUFJPR19NRU1fQ0xVU1Qg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQUk9HX01FTV9DTFVTVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJPT1RfRFVNTVkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBCT09UX0xPQURfSEVYIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9PVF9GSU5JU0hFRCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TVEFSVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9SRUNfTEVOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0xPQURfT0ZGU0VUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1JFQ1RZUEUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfREFUQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9FTEEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRVNBIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX1NMQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9TU0Eg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBIRVhfRU9GIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0NIS1NVTSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEhFWF9QQVJTSU5HIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZJTklTSEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgSEVYX0ZBVUxUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgREFUQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFT0ZfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgRVNBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFNTQV9SRUMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBFTEFfUkVDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0xBX1JFQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFZPTFVNRV9MQUJFTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFJPT1RfTkFNRSDigKYg4oCUIG1hY3JvIG9iamVjdArik4kgIEJPT1QxNl90IDsg4oCUIHR5cGVkZWYK4pOJICBESVJfRU5UUllfdCA7IOKAlCB0eXBlZGVmCuKTiSAgUk9PVF9ESVJfdCA7IOKAlCB0eXBlZGVmCuKSoSAgYm9vdF9wcm9jZXNzX3JlYWQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgYm9vdF9wcm9jZXNzX3dyaXRlICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAA"
+				],
+				[
+					5,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/README.md",
+						"symkeys":
+						[
+							[
+								2,
+								8
+							]
+						],
+						"symlist":
+						[
+							"USB uC"
+						]
+					},
+					"AQAAAAAAAAAAAAAABgAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAA"
+				],
+				[
+					6,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/usb_msd.h",
+						"symkeys":
+						[
+							[
+								864,
+								873
+							],
+							[
+								1759,
+								1787
+							],
+							[
+								1876,
+								1904
+							],
+							[
+								1962,
+								1990
+							],
+							[
+								2133,
+								2160
+							],
+							[
+								2176,
+								2202
+							],
+							[
+								2244,
+								2271
+							],
+							[
+								2288,
+								2314
+							],
+							[
+								2357,
+								2384
+							],
+							[
+								2401,
+								2427
+							],
+							[
+								2451,
+								2478
+							],
+							[
+								2517,
+								2543
+							],
+							[
+								2698,
+								2730
+							],
+							[
+								2746,
+								2777
+							],
+							[
+								2794,
+								2825
+							],
+							[
+								2842,
+								2872
+							],
+							[
+								2896,
+								2928
+							],
+							[
+								2968,
+								2999
+							],
+							[
+								3056,
+								3087
+							],
+							[
+								3149,
+								3179
+							],
+							[
+								3288,
+								3292
+							],
+							[
+								3375,
+								3379
+							],
+							[
+								3461,
+								3465
+							],
+							[
+								3547,
+								3551
+							],
+							[
+								3956,
+								3962
+							],
+							[
+								3979,
+								3985
+							],
+							[
+								4002,
+								4008
+							],
+							[
+								4025,
+								4031
+							],
+							[
+								4048,
+								4054
+							],
+							[
+								4071,
+								4077
+							],
+							[
+								4094,
+								4100
+							],
+							[
+								4117,
+								4123
+							],
+							[
+								4140,
+								4146
+							],
+							[
+								4163,
+								4170
+							],
+							[
+								4186,
+								4193
+							],
+							[
+								4209,
+								4216
+							],
+							[
+								4232,
+								4239
+							],
+							[
+								4605,
+								4623
+							],
+							[
+								4637,
+								4640
+							],
+							[
+								4669,
+								4674
+							],
+							[
+								4701,
+								4708
+							],
+							[
+								4733,
+								4736
+							],
+							[
+								4765,
+								4774
+							],
+							[
+								4797,
+								4813
+							],
+							[
+								4829,
+								4835
+							],
+							[
+								4861,
+								4870
+							],
+							[
+								4916,
+								4931
+							],
+							[
+								4948,
+								4963
+							],
+							[
+								4980,
+								4983
+							],
+							[
+								5012,
+								5015
+							],
+							[
+								5080,
+								5095
+							],
+							[
+								5478,
+								5485
+							],
+							[
+								5515,
+								5522
+							],
+							[
+								5894,
+								5901
+							],
+							[
+								5922,
+								5935
+							],
+							[
+								5950,
+								5957
+							],
+							[
+								5978,
+								5991
+							],
+							[
+								6006,
+								6023
+							],
+							[
+								6034,
+								6048
+							],
+							[
+								6062,
+								6076
+							],
+							[
+								6090,
+								6104
+							],
+							[
+								6467,
+								6471
+							],
+							[
+								6482,
+								6494
+							],
+							[
+								6508,
+								6520
+							],
+							[
+								6534,
+								6545
+							],
+							[
+								6560,
+								6565
+							],
+							[
+								6914,
+								6933
+							],
+							[
+								6987,
+								7006
+							],
+							[
+								7062,
+								7081
+							],
+							[
+								7133,
+								7151
+							],
+							[
+								7203,
+								7229
+							],
+							[
+								7281,
+								7306
+							],
+							[
+								7380,
+								7393
+							],
+							[
+								7429,
+								7442
+							],
+							[
+								7824,
+								7838
+							],
+							[
+								7849,
+								7863
+							],
+							[
+								7874,
+								7885
+							],
+							[
+								8691,
+								8700
+							],
+							[
+								8928,
+								8937
+							],
+							[
+								9209,
+								9225
+							],
+							[
+								9388,
+								9411
+							],
+							[
+								9911,
+								9915
+							],
+							[
+								9987,
+								9991
+							],
+							[
+								10144,
+								10148
+							],
+							[
+								10230,
+								10234
+							],
+							[
+								10315,
+								10319
+							],
+							[
+								10400,
+								10404
+							],
+							[
+								10593,
+								10597
+							],
+							[
+								11347,
+								11364
+							],
+							[
+								11584,
+								11592
+							],
+							[
+								11761,
+								11773
+							],
+							[
+								12224,
+								12233
+							],
+							[
+								12460,
+								12474
+							],
+							[
+								12633,
+								12652
+							],
+							[
+								13102,
+								13116
+							],
+							[
+								13586,
+								13599
+							],
+							[
+								13930,
+								13944
+							],
+							[
+								14318,
+								14331
+							],
+							[
+								14621,
+								14637
+							],
+							[
+								14908,
+								14923
+							],
+							[
+								14935,
+								14964
+							],
+							[
+								15007,
+								15024
+							],
+							[
+								15040,
+								15059
+							],
+							[
+								15075,
+								15094
+							],
+							[
+								15110,
+								15127
+							],
+							[
+								15143,
+								15156
+							],
+							[
+								15172,
+								15185
+							],
+							[
+								15201,
+								15215
+							]
+						],
+						"symlist":
+						[
+							" Ⓜ  USB_MSD_H … — macro object",
+							" Ⓜ  MSD_EP_BUFFERS_STARTING_ADDR … — macro object",
+							" Ⓜ  MSD_EP_BUFFERS_STARTING_ADDR … — macro object",
+							" Ⓜ  MSD_EP_BUFFERS_STARTING_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_EVEN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_ODD_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_EVEN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_ODD_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_EVEN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_OUT_ODD_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_EVEN_BUFFER_BASE_ADDR … — macro object",
+							" Ⓜ  MSD_EP_IN_ODD_BUFFER_BASE_ADDR … — macro object",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" Ⓜ  CASE_1 … — macro object",
+							" Ⓜ  CASE_2 … — macro object",
+							" Ⓜ  CASE_3 … — macro object",
+							" Ⓜ  CASE_4 … — macro object",
+							" Ⓜ  CASE_5 … — macro object",
+							" Ⓜ  CASE_6 … — macro object",
+							" Ⓜ  CASE_7 … — macro object",
+							" Ⓜ  CASE_8 … — macro object",
+							" Ⓜ  CASE_9 … — macro object",
+							" Ⓜ  CASE_10 … — macro object",
+							" Ⓜ  CASE_11 … — macro object",
+							" Ⓜ  CASE_12 … — macro object",
+							" Ⓜ  CASE_13 … — macro object",
+							" Ⓜ  SCSI_CMD_N_SUPPORT … — macro object",
+							" Ⓜ  RBC … — macro object",
+							" Ⓜ  MMC_5 … — macro object",
+							" Ⓜ  QIC_157 … — macro object",
+							" Ⓜ  UFI … — macro object",
+							" Ⓜ  SFF_8070i … — macro object",
+							" Ⓜ  SCSI_TRANSPARENT … — macro object",
+							" Ⓜ  LSD_FS … — macro object",
+							" Ⓜ  IEEE_1667 … — macro object",
+							" Ⓜ  CBI_W_COMPL_INT … — macro object",
+							" Ⓜ  CBI_N_COMPL_INT … — macro object",
+							" Ⓜ  BBB … — macro object",
+							" Ⓜ  UAS … — macro object",
+							" Ⓜ  PIPE_USAGE_DESC … — macro object",
+							" Ⓜ  CBW_SIG … — macro object",
+							" Ⓜ  CSW_SIG … — macro object",
+							" Ⓜ  MSD_CBW … — macro object",
+							" Ⓜ  MSD_DATA_SENT … — macro object",
+							" Ⓜ  MSD_CSW … — macro object",
+							" Ⓜ  MSD_READ_DATA … — macro object",
+							" Ⓜ  MSD_READ_FINISHED … — macro object",
+							" Ⓜ  MSD_WRITE_DATA … — macro object",
+							" Ⓜ  MSD_WAIT_CLEAR … — macro object",
+							" Ⓜ  MSD_WAIT_BOMSR … — macro object",
+							" Ⓜ  ADSC … — macro object",
+							" Ⓜ  GET_REQUESTS … — macro object",
+							" Ⓜ  PUT_REQUESTS … — macro object",
+							" Ⓜ  GET_MAX_LUN … — macro object",
+							" Ⓜ  BOMSR … — macro object",
+							" Ⓜ  MSD_TRANSACTION_DIR … — macro object",
+							" Ⓜ  MSD_PINGPONG_PARITY … — macro object",
+							" Ⓜ  MSD_EP_OUT_LAST_PPB … — macro object",
+							" Ⓜ  MSD_EP_IN_LAST_PPB … — macro object",
+							" Ⓜ  MSD_EP_OUT_DATA_TOGGLE_VAL … — macro object",
+							" Ⓜ  MSD_EP_IN_DATA_TOGGLE_VAL … — macro object",
+							" Ⓜ  CBW_DATA_ADDR … — macro object",
+							" Ⓜ  CBW_DATA_ADDR … — macro object",
+							" Ⓜ  COMMAND_PASSED … — macro object",
+							" Ⓜ  COMMAND_FAILED … — macro object",
+							" Ⓜ  PHASE_ERROR … — macro object",
+							" Ⓣ  msd_cbw_t ; — typedef",
+							" Ⓣ  msd_csw_t ; — typedef",
+							" Ⓣ  msd_rw_10_vars_t ; — typedef",
+							" Ⓣ  msd_bytes_to_transfer_t ; — typedef",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  __at ( ) ; — function declaration",
+							" ⒡  msd_class_request ( ) ; — function declaration",
+							" ⒡  msd_init ( ) ; — function declaration",
+							" ⒡  msd_add_task ( ) ; — function declaration",
+							" ⒡  msd_tasks ( ) ; — function declaration",
+							" ⒡  msd_clear_halt ( ) ; — function declaration",
+							" ⒡  msd_clear_ep_toggle ( ) ; — function declaration",
+							" ⒡  msd_arm_ep_out ( ) ; — function declaration",
+							" ⒡  msd_arm_ep_in ( ) ; — function declaration",
+							" ⒡  msd_arm_ep_out ( ) ; — function declaration",
+							" ⒡  msd_arm_ep_in ( ) ; — function declaration",
+							" ⒡  msd_stall_ep_out ( ) ; — function declaration",
+							" ⒡  msd_stall_ep_in ( ) ; — function declaration",
+							"  ✔  TODO: descriptions for these",
+							" ⒡  msd_media_present ( ) ; — function declaration",
+							" ⒡  msd_test_unit_ready ( ) ; — function declaration",
+							" ⒡  msd_start_stop_unit ( ) ; — function declaration",
+							" ⒡  msd_read_capacity ( ) ; — function declaration",
+							" ⒡  msd_rx_sector ( ) ; — function declaration",
+							" ⒡  msd_tx_sector ( ) ; — function declaration",
+							" ⒡  msd_wr_protect ( ) ; — function declaration"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAVVNCIHVDAAAAAAAAAAAJEAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAA"
+				],
+				[
+					7,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/USB-uC/USB_uC.X/main.c",
+						"symkeys":
+						[
+							[
+								1001,
+								1012
+							],
+							[
+								1268,
+								1277
+							],
+							[
+								1304,
+								1315
+							],
+							[
+								1335,
+								1356
+							],
+							[
+								1432,
+								1436
+							],
+							[
+								2908,
+								2917
+							],
+							[
+								4807,
+								4818
+							],
+							[
+								6153,
+								6174
+							],
+							[
+								6637,
+								6650
+							],
+							[
+								6690,
+								6703
+							]
+						],
+						"symlist":
+						[
+							"—Ⓕ– __interrupt ( ) { … } — function",
+							" ⒡  boot_init ( ) ; — function declaration",
+							" ⒡  boot_uninit ( ) ; — function declaration",
+							" ⒡  check_user_first_inst ( ) ; — function declaration",
+							"—Ⓕ– main ( ) { … } — function",
+							"—Ⓕ– boot_init ( ) { … } — function",
+							"—Ⓕ– boot_uninit ( ) { … } — function",
+							"—Ⓕ– check_user_first_inst ( ) { … } — function",
+							"—Ⓕ– msd_rx_sector ( ) { … } — function",
+							"—Ⓕ– msd_tx_sector ( ) { … } — function"
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABJEgAA4pOCICBVU0JfTVNEX0gg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfQlVGRkVSU19TVEFSVElOR19BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX0JVRkZFUlNfU1RBUlRJTkdfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9CVUZGRVJTX1NUQVJUSU5HX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9JTl9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX09VVF9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX0lOX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfRVZFTl9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX09VVF9PRERfQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9JTl9FVkVOX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fT0REX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0VWRU5fQlVGRkVSX0JBU0VfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfT0REX0JVRkZFUl9CQVNFX0FERFIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fRVZFTl9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0VQX0lOX09ERF9CVUZGRVJfQkFTRV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pOCICBDQVNFXzEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzMg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzYg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzgg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzkg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzEwIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ0FTRV8xMSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENBU0VfMTIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQVNFXzEzIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0NTSV9DTURfTl9TVVBQT1JUIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgUkJDIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTU1DXzUg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBRSUNfMTU3IOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgVUZJIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0ZGXzgwNzBpIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgU0NTSV9UUkFOU1BBUkVOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIExTRF9GUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIElFRUVfMTY2NyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENCSV9XX0NPTVBMX0lOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENCSV9OX0NPTVBMX0lOVCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEJCQiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFVBUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBJUEVfVVNBR0VfREVTQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENCV19TSUcg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDU1dfU0lHIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX0NCVyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9EQVRBX1NFTlQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfQ1NXIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX1JFQURfREFUQSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9SRUFEX0ZJTklTSEVEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX1dSSVRFX0RBVEEg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfV0FJVF9DTEVBUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9XQUlUX0JPTVNSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQURTQyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEdFVF9SRVFVRVNUUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIFBVVF9SRVFVRVNUUyDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIEdFVF9NQVhfTFVOIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQk9NU1Ig4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfVFJBTlNBQ1RJT05fRElSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgTVNEX1BJTkdQT05HX1BBUklUWSDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9PVVRfTEFTVF9QUEIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfSU5fTEFTVF9QUEIg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBNU0RfRVBfT1VUX0RBVEFfVE9HR0xFX1ZBTCDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIE1TRF9FUF9JTl9EQVRBX1RPR0dMRV9WQUwg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBDQldfREFUQV9BRERSIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ0JXX0RBVEFfQUREUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4IgIENPTU1BTkRfUEFTU0VEIOKApiDigJQgbWFjcm8gb2JqZWN0CuKTgiAgQ09NTUFORF9GQUlMRUQg4oCmIOKAlCBtYWNybyBvYmplY3QK4pOCICBQSEFTRV9FUlJPUiDigKYg4oCUIG1hY3JvIG9iamVjdArik4kgIG1zZF9jYndfdCA7IOKAlCB0eXBlZGVmCuKTiSAgbXNkX2Nzd190IDsg4oCUIHR5cGVkZWYK4pOJICBtc2RfcndfMTBfdmFyc190IDsg4oCUIHR5cGVkZWYK4pOJICBtc2RfYnl0ZXNfdG9fdHJhbnNmZXJfdCA7IOKAlCB0eXBlZGVmCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBfX2F0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIF9fYXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgX19hdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfY2xhc3NfcmVxdWVzdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfaW5pdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfYWRkX3Rhc2sgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3Rhc2tzICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9jbGVhcl9oYWx0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9jbGVhcl9lcF90b2dnbGUgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX2FybV9lcF9vdXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX2FybV9lcF9pbiAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfYXJtX2VwX291dCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfYXJtX2VwX2luICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9zdGFsbF9lcF9vdXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3N0YWxsX2VwX2luICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrinJQgIFRPRE86IGRlc2NyaXB0aW9ucyBmb3IgdGhlc2UK4pKhICBtc2RfbWVkaWFfcHJlc2VudCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfdGVzdF91bml0X3JlYWR5ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF9zdGFydF9zdG9wX3VuaXQgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3JlYWRfY2FwYWNpdHkgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKSoSAgbXNkX3J4X3NlY3RvciAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBtc2RfdHhfc2VjdG9yICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgrikqEgIG1zZF93cl9wcm90ZWN0ICggKSA7IOKAlCBmdW5jdGlvbiBkZWNsYXJhdGlvbgAAAAAAAAAAkwEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAA"
+				],
+				[
+					1,
+					1,
+					"outline_refresh",
+					{
+						"path": null,
+						"symkeys":
+						[
+						],
+						"symlist":
+						[
+						]
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAADlAQAA4oCU4pK74oCTIF9faW50ZXJydXB0ICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrikqEgIGJvb3RfaW5pdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBib290X3VuaW5pdCAoICkgOyDigJQgZnVuY3Rpb24gZGVjbGFyYXRpb24K4pKhICBjaGVja191c2VyX2ZpcnN0X2luc3QgKCApIDsg4oCUIGZ1bmN0aW9uIGRlY2xhcmF0aW9uCuKAlOKSu+KAkyBtYWluICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgYm9vdF9pbml0ICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgYm9vdF91bmluaXQgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBjaGVja191c2VyX2ZpcnN0X2luc3QgKCApIHsg4oCmIH0g4oCUIGZ1bmN0aW9uCuKAlOKSu+KAkyBtc2Rfcnhfc2VjdG9yICggKSB7IOKApiB9IOKAlCBmdW5jdGlvbgrigJTikrvigJMgbXNkX3R4X3NlY3RvciAoICkgeyDigKYgfSDigJQgZnVuY3Rpb24AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"outline_refresh",
+					{
+						"path": "/mnt/data/Projects/opencv/samples/cpp/grabcut.cpp",
+						"symkeys":
+						[
+							[
+								133,
+								136
+							],
+							[
+								154,
+								156
+							],
+							[
+								171,
+								175
+							],
+							[
+								1319,
+								1329
+							],
+							[
+								1688,
+								1701
+							],
+							[
+								1842,
+								1847
+							],
+							[
+								1860,
+								1878
+							],
+							[
+								1934,
+								1943
+							],
+							[
+								1962,
+								1972
+							],
+							[
+								2033,
+								2041
+							],
+							[
+								2053,
+								2065
+							],
+							[
+								2114,
+								2127
+							],
+							[
+								2140,
+								2153
+							],
+							[
+								2452,
+								2472
+							],
+							[
+								2755,
+								2788
+							],
+							[
+								3007,
+								3031
+							],
+							[
+								4109,
+								4137
+							],
+							[
+								4421,
+								4449
+							],
+							[
+								5058,
+								5083
+							],
+							[
+								7592,
+								7615
+							],
+							[
+								8214,
+								8222
+							],
+							[
+								8334,
+								8338
+							]
+						],
+						"symlist":
+						[
+							"std",
+							"cv",
+							"help",
+							"getBinMask",
+							"GCApplication",
+							" reset",
+							" setImageAndWinName",
+							" showImage",
+							" mouseClick",
+							" nextIter",
+							" getIterCount",
+							" setRectInMask",
+							" setLblsInMask",
+							"GCApplication::reset",
+							"GCApplication::setImageAndWinName",
+							"GCApplication::showImage",
+							"GCApplication::setRectInMask",
+							"GCApplication::setLblsInMask",
+							"GCApplication::mouseClick",
+							"GCApplication::nextIter",
+							"on_mouse",
+							"main"
+						]
+					},
+					"AQAAAAAAAAAAAAAAWgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAAAAAAA"
+				]
+			]
+		},
+		{
+			"file": "/mnt/data/Projects/opencv/samples/cpp/grabcut.cpp",
+			"settings":
+			{
+				"buffer_size": 9801,
 				"line_ending": "Unix"
 			}
 		}
@@ -40,12 +5050,12 @@
 		"selected_items":
 		[
 			[
-				"packa",
-				"Package Control: User CA bundle"
+				"out",
+				"Browse Mode: Outline (Right)"
 			],
 			[
-				"out",
-				"Help: About"
+				"packa",
+				"Package Control: User CA bundle"
 			],
 			[
 				"install",
@@ -77,10 +5087,16 @@
 	"expanded_folders":
 	[
 		"/mnt/data/Projects/USB-uC",
-		"/mnt/data/Projects/USB-uC/USB_uC.X"
+		"/mnt/data/Projects/USB-uC/USB_uC_Test",
+		"/mnt/data/Projects/USB-uC/USB_uC_Test/Test_K50.X"
 	],
 	"file_history":
 	[
+		"/mnt/data/Projects/USB-uC/USB_uC.X/main.c",
+		"/mnt/data/Projects/USB-uC/USB_uC.X/usb_msd.h",
+		"/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.h",
+		"/mnt/data/Projects/USB-uC/USB_uC.X/bootloader.c",
+		"/mnt/data/Projects/opencv/samples/cpp/grabcut.cpp",
 		"/mnt/data/home/roman/.config/sublime-text/Packages/User/Package Control.user-ca-bundle",
 		"/mnt/data/Projects/plot-cv/qjs-opencv/tests/test_linesegmentdetector.js",
 		"/mnt/data/Projects/plot-cv/qjs-opencv/tests/test_morphology_3.js",
@@ -102,6 +5118,7 @@
 		"height": 98.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -109,6 +5126,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"SIMPLE_BOOTLOADER",
+			"PROG_MEM\\b",
+			"PROG_MEM",
+			"service_read10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -132,14 +5153,204 @@
 			[
 				{
 					"buffer": 0,
-					"file": "USB_uC.X/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "./",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"current_file": "/mnt/data/Projects/opencv/samples/cpp/grabcut.cpp",
+							"function_name_status_row": -1,
+							"outline_rename_mode": false,
+							"show_line_column": "disabled",
+							"symkeys":
+							[
+								[
+									133,
+									136
+								],
+								[
+									154,
+									156
+								],
+								[
+									171,
+									175
+								],
+								[
+									1319,
+									1329
+								],
+								[
+									1688,
+									1701
+								],
+								[
+									1842,
+									1847
+								],
+								[
+									1860,
+									1878
+								],
+								[
+									1934,
+									1943
+								],
+								[
+									1962,
+									1972
+								],
+								[
+									2033,
+									2041
+								],
+								[
+									2053,
+									2065
+								],
+								[
+									2114,
+									2127
+								],
+								[
+									2140,
+									2153
+								],
+								[
+									2452,
+									2472
+								],
+								[
+									2755,
+									2788
+								],
+								[
+									3007,
+									3031
+								],
+								[
+									4109,
+									4137
+								],
+								[
+									4421,
+									4449
+								],
+								[
+									5058,
+									5083
+								],
+								[
+									7592,
+									7615
+								],
+								[
+									8214,
+									8222
+								],
+								[
+									8334,
+									8338
+								]
+							],
+							"symlist":
+							[
+								"  std",
+								"  cv",
+								"  help",
+								"  getBinMask",
+								"GCApplication",
+								"reset",
+								"setImageAndWinName",
+								"showImage",
+								"mouseClick",
+								"nextIter",
+								"getIterCount",
+								"setRectInMask",
+								"setLblsInMask",
+								"GCApplication::reset",
+								"GCApplication::setImageAndWinName",
+								"GCApplication::showImage",
+								"GCApplication::setRectInMask",
+								"GCApplication::setLblsInMask",
+								"GCApplication::mouseClick",
+								"GCApplication::nextIter",
+								"  on_mouse",
+								"  main"
+							],
+							"syntax": "Packages/Outline/outline.hidden-tmLanguage",
+							"tabs_extra_last_activated": 1770549437.4,
+							"tabs_extra_last_activated_sheet_index": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/mnt/data/Projects/opencv/samples/cpp/grabcut.cpp",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6738,
+						"buffer_size": 9801,
 						"regions":
 						{
+							"col_010101FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3234,
+										3239
+									],
+									[
+										3367,
+										3372
+									]
+								],
+								"scope": "col_010101FF"
+							},
+							"col_010101FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_010101FF_circle.png",
+								"regions":
+								[
+									[
+										3222,
+										3222
+									],
+									[
+										3347,
+										3347
+									]
+								],
+								"scope": "col_gutter"
+							}
 						},
 						"selection":
 						[
@@ -162,10 +5373,10 @@
 								}
 							],
 							"function_name_status_row": 0,
-							"syntax": "Packages/C Improved/C Improved.tmLanguage",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1770545981.14,
-							"tabs_extra_last_activated_sheet_index": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1770549449.22,
+							"tabs_extra_last_activated_sheet_index": 1,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -176,6 +5387,11 @@
 					"stack_multiselect": false,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -192,20 +5408,29 @@
 		"cells":
 		[
 			[
+				2,
+				0,
+				3,
+				2
+			],
+			[
 				0,
 				0,
-				1,
-				1
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.2,
+			0.681124497992,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -230,6 +5455,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"boo",
+				"USB_uC.X/bootloader.h"
+			],
 			[
 				"fld_li",
 				"tests/fld_lines.js"
@@ -275,7 +5504,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 325.0,
+	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
