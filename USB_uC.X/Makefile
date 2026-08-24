@@ -43,11 +43,20 @@
 # NOCDDL
 
 
-# Environment 
+# Environment
 MKDIR=mkdir
 CP=cp
 CCADMIN=CCadmin
 RANLIB=ranlib
+
+# BOARD_VERSION: optional override of config.h's BOARD_VERSION selection.
+# Set on the command line, e.g. `make CONF=PIC18F25K50 BOARD_VERSION=PICSTICK_25K50`,
+# to pass -DBOARD_VERSION=<value> to the compiler for every configuration built.
+BOARD_VERSION?=
+ifneq ($(strip $(BOARD_VERSION)),)
+MP_EXTRA_CC_PRE+=-DBOARD_VERSION=$(BOARD_VERSION)
+endif
+export MP_EXTRA_CC_PRE
 
 
 # build
